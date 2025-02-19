@@ -1,0 +1,36 @@
+18/02/2025 >>Pseudocódigo<<
+
+Exemplo:
+
+ler (comprimento, largura)
+area = comprimento * largura
+escrever ("Área: ", area)
+
+Exercícios:
+
+1. Representar em pseudocódigo a conta bancária que possua atributos número, conta e saldo.
+Criar funções para depositar e sacar dinheiro da conta,
+garantindo que não seja possível sacar um valor maior que o saldo disponível.
+
+inicio ContaBancaria
+  variaveis: numeroConta, saldo
+
+  ler(numeroConta, saldo)
+
+  funcao Depositar()
+    variavel valor
+    ler(valor)
+    saldo = saldo + valor  
+  fim funcao
+
+  funcao Sacar() 
+    variavel valor
+    ler(valor)
+    se saldo >= valor então 
+      saldo = saldo - valor
+    senão
+      escrever ("Saldo insuficiente")
+    fim se 
+  fim funcao
+
+fim ContaBancaria
