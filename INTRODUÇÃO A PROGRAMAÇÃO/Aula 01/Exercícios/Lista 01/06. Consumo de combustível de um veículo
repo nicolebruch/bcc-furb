@@ -1,0 +1,23 @@
+#6. Desenvolva um algoritmo em pseudocódigo que represente um Veículo e possua os atributos modelo,
+capacidade do tanque e quilometragem rodada na última viagem. Implemente um método que calcule e
+exiba a média de consumo do veículo, considerando que o motorista encheu o tanque antes da viagem.
+
+inicio Veiculo
+#Posso já declarar o valor da variável que irei pedir ao usuário junto com as demais variáveis declaradas de início
+  variaveis: modelo, capacidadeTanque, kmRodado, consumoMedio
+
+  escrever("Digite o modelo do veículo:")
+  ler(modelo)
+
+  escrever("Digite a capacidade do tanque de combustível em litros:")
+  ler(capacidadeTanque)
+
+  escrever("Digite a quilometragem rodada na última viagem:")
+  ler(kmRodado)
+
+  funcao CalcularConsumo()
+    consumoMedio = kmRodado / capacidadeTanque
+    escrever("O consumo médio do veículo ", modelo, " foi de ", consumoMedio, " km/l")
+  fim funcao
+
+fim Veiculo
