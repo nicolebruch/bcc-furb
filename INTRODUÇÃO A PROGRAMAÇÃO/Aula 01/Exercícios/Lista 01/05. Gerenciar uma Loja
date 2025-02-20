@@ -1,0 +1,35 @@
+#5. Crie um algoritmo em pseudocódigo para representar um item de uma loja (Produto). O Produto deve
+possuir os atributos nome, preço e quantidade em estoque. Implemente funções para adicionar e remover
+produtos do estoque e uma função para calcular o valor total do estoque.
+
+inicio Produto
+  variaveis: nome, preco, quantidadeEmEstoque
+
+  escrever("Digite o nome do produto, preço e quantidade em estoque:")
+  ler(nome, preco, quantidadeEmEstoque)
+
+  funcao AdicionarEstoque()
+    variavel quantidadeAdd
+    escrever("Digite a quantidade para adicionar no estoque:")
+    ler(quantidadeAdd)
+    quantidadeEmEstoque = quantidadeEmEstoque + quantidadeAdd
+  fim funcao
+
+  funcao RemoverEstoque()
+    variavel quantidadeRemove
+    escrever("Digite a quantidade para remover do estoque:")
+    ler(quantidadeRemove)
+    se quantidadeEmEstoque >= quantidadeRemove então
+      quantidadeEmEstoque = quantidadeEmEstoque - quantidadeRemove
+    senão
+      escrever("Estoque insuficiente para poder remover.")
+    fim se
+  fim funcao
+
+  funcao TotalEstoque()
+    variavel valorEstoque
+    valorEstoque = preco * quantidadeEmEstoque
+    escrever("Valor total do estoque:", valorEstoque)
+  fim funcao
+
+fim Produto
