@@ -1,0 +1,21 @@
+#3. Desenvolva um algoritmo em pseudocódigo que peça ao usuário as medidas de comprimento e largura de
+um retângulo. Implemente funções para calcular e exibir a área e o perímetro do retângulo.
+
+inicio CalculoRetangulo
+#Posso já declarar o valor da variável que irei pedir ao usuário junto com as demais variáveis declaradas de início
+  variaveis: comprimento, largura, area, perimetro
+
+  escrever("Digite o comprimento e a largura do retângulo:")
+  ler(comprimento, largura)
+
+  funcao CalcularArea()
+    area = comprimento * largura
+    escrever("Área do retângulo:", area)
+  fim funcao
+
+  funcao CalcularPerimetro()
+    perimetro = 2 * (largura + comprimento)
+    escrever("Perímetro do retângulo:", perimetro)
+  fim funcao
+
+fim CalculoRetangulo
