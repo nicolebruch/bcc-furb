@@ -1,0 +1,32 @@
+#4. Implemente um algoritmo em pseudocódigo que represente uma Conta Bancária e que possua os atributos
+número da conta e saldo. Crie funções para depositar e sacar dinheiro da conta, garantindo que não seja
+possível sacar um valor maior que o saldo disponível.
+
+inicio ContaBancaria 
+  variaveis: numeroConta, saldo
+
+  escrever("Digite o número da conta:")
+  ler(numeroConta)
+
+  escrever("Digite o saldo inicial:")
+  ler(saldo)
+
+  funcao Depositar()
+    variavel valor
+    escrever("Digite o valor a depositar:")
+    ler(valor)
+    saldo = saldo + valor
+  fim funcao
+
+  funcao Sacar()
+    variavel valor
+    escrever("Digite o valor a sacar:")
+    ler(valor)
+    se saldo >= valor então
+      saldo = saldo - valor
+    senão
+      escrever("Saldo insuficiente, está sem dinheiro")
+    fim se
+  fim funcao
+
+fim ContaBancaria
