@@ -1,0 +1,17 @@
+#2. Escreva um algoritmo em pseudocódigo que peça ao usuário o valor do raio de um círculo e implemente
+uma função para calcular e exibir a área desse círculo. Utilize 3,14 como valor de Pi.
+
+inicio raioCirculo
+#Posso já declarar o valor da variável que irei pedir ao usuário junto com as demais variáveis declaradas de início
+  variaveis: raioDoCirculo, PI, areaDoCirculo
+  PI = 3.14
+
+  escrever("Digite o valor do raio do círculo:")
+  ler(raioDoCirculo)
+
+  funcao CalcularArea()
+    areaDoCirculo = (raioDoCirculo * raioDoCirculo) * PI
+    escrever("Área do círculo:", areaDoCirculo)
+  fim funcao
+
+fim raioCirculo
