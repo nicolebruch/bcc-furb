@@ -1,0 +1,40 @@
+#1. Implemente um algoritmo em pseudocódigo que solicite dois números ao usuário e realize as quatro
+operações básicas (adição, subtração, multiplicação e divisão). Certifique-se de tratar o caso de divisão por
+zero
+
+inicio Calculo
+  variaveis: numb1, numb2
+
+  escrever("Digite dois números:")
+  ler(numb1, numb2)
+
+  funcao Adicao()
+    variavel somar
+    somar = numb1 + numb2
+    escrever("Soma:", somar)
+  fim funcao
+
+  funcao Subtracao()
+    variavel subtrair
+    subtrair = numb1 - numb2
+    escrever("Subtração:", subtrair)
+  fim funcao
+
+  funcao Multiplicacao()
+    variavel vezes
+    vezes = numb1 * numb2
+    escrever("Multiplicação:", vezes)
+  fim funcao
+
+  funcao Divisao()
+#O denominador nunca pode zerar
+    se numb2 == 0 então
+      escrever("Erro: Divisão por zero não é permitida.")
+    senão
+      variavel dividir
+      dividir = numb1 / numb2
+      escrever("Divisão:", dividir)
+    fim se
+  fim funcao
+
+fim Calculo
