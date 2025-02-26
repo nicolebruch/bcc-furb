@@ -6,6 +6,7 @@ O peso do prato é de 750 gramas. */
 import java.util.Scanner;
 
 public class Uni3Exe06 {
+
     public static void main(String[] args) {
         /*
          * Scanner pra poder estar puxando os dados
@@ -13,27 +14,29 @@ public class Uni3Exe06 {
          */
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Informe o peso do prato:");
-        double pesoPrato = entrada.nextDouble();
+        /*Definindo as variáveis/atributos */
+        double precoPorQuilo = 25;
+        /*Convertendo gramas para quilos */
+        double pesoPratoVazio = 750 / 1000;
 
-        /*
-         * dividi o custo de produção (25 pila),
-         * pelo custo da quantidade consumida(pesoPrato)
-         */
-        double quiloCobrado = pesoPrato / 25;
+        System.out.println("Peso total em KG:");
+        double pesoTotal = entrada.nextDouble();
 
-        /* Se o peso do prato ultrapassar 1000G == 1KG */
-        if (pesoPrato > 1000) {
-            /* Vai ter que pagar pelo quilo cobrado */
-            System.out.println("Você pagará: " + quiloCobrado);
-            /* Se não, não é cobrado pelo quilo cobrado */
+        entrada.close(); //Fechando aqui o Scanner pra não consumir memória
+
+        /*Cálculo do peso da comida*/
+        double pesoComida = pesoTotal - pesoPratoVazio;
+
+
+        /*Condição para não ser colocado um número menor que zero na condição*/
+        if (pesoComida < 0) {
+            System.out.println("Peso inválido");
+            /*Se caso não for menor que zero, ele vai calcular e passar o valor */
         } else {
-            System.out.println("Você não será cobrado a mais pela refeição.");
-
+            double valorAPagar = pesoComida * precoPorQuilo;
+            /*Aqui ele printa o quanto vai pagar na refeição */
+            System.out.println("Valor da refeição é de: " + "R$" + valorAPagar);
         }
 
     }
 }
-
-
-/*errado, refazer */

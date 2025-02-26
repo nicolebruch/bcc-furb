@@ -20,9 +20,11 @@ public class Uni3Exe01 {
         System.out.println("Informe o comprimento do terreno");
         float comprimento = entrada.nextFloat();
 
+        entrada.close();
+
         /* Realizando o cálculo da Área do Terreno */
-        float AreaTerreno = largura * comprimento;
-        System.out.println("A área do terreno é igual a: " + AreaTerreno);
+        float areaTerreno = largura * comprimento;
+        System.out.println("A área do terreno é igual a: " + areaTerreno);
 
     }
 

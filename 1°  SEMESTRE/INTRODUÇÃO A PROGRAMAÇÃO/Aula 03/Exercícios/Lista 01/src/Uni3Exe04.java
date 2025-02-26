@@ -24,8 +24,10 @@ public class Uni3Exe04 {
         System.out.println("Informe a sua terceira nota:");
         double nota3 = entrada.nextDouble();
 
-        /*Calculando a média ponderada das 3 notas informadas*/
-        double mediaPonderada = (nota1 * 2) + (nota2 * 3) + (nota3 * 4) / 9;
+        entrada.close(); // Fechando aqui o Scanner pra não consumir memória
+
+        /* Calculando a média ponderada das 3 notas informadas */
+        double mediaPonderada = (nota1 * 0.5) + (nota2 * 0.3) + (nota3 * 0.2) / 10;
         System.out.println("A sua média ponderada é igual a: " + mediaPonderada);
 
     }

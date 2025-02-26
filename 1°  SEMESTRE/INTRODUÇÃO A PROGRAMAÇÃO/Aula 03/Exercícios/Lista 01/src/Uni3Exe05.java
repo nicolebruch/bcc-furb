@@ -18,13 +18,15 @@ public class Uni3Exe05 {
         System.out.println("Quantos frangos existem na granja?");
         double frangosTotal = entrada.nextDouble();
 
+        entrada.close(); // Fechando aqui o Scanner pra não consumir memória
+
         /* Cálculo dos gastos de aneis com base na quantidade de frangos */
         double gastoPeDireito = 4 * frangosTotal;
-        double gastoPeEsquerdo = 3.50 * frangosTotal;
+        /* Coloco vezes 2 porque são 2 aneis no pé esquerdo */
+        double gastoPeEsquerdo = (3.50 * 2) * frangosTotal;
 
         /* Cálculo dos gastos totais com os frangos para identificação */
         double gastoTotal = gastoPeDireito + gastoPeEsquerdo;
         System.out.println("O gasto total para marcar " + frangosTotal + " é de: " + gastoTotal);
-
     }
 }
