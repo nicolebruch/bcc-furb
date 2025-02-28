@@ -14,6 +14,24 @@ public class Uni3Exe15 {
          * na memória que o usuário informou
          */
         Scanner entrada = new Scanner(System.in);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
          int numero = entrada.nextInt();
          int centena = numero / 100;
          numero %= 100;
