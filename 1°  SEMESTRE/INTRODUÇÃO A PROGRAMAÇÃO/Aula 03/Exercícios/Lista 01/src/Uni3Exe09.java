@@ -24,6 +24,9 @@ public class Uni3Exe09 {
             System.out.println("Informe o comprimento da lata: ");
             double comprimento = entrada.nextDouble();
 
+            /* fecho o scanner para não consumir memória */
+            entrada.close();
+
             /* aqui eu realizo o calculo do volume da lata */
             double calculoVolumeLata = altura * largura * comprimento;
 

@@ -33,8 +33,10 @@ public class Uni3Exe02 {
         double valorDesconto = precoSapato * 0.12;
         double valorTotalComDesconto = precoSapato - valorDesconto;
 
+        // Chamando o método para mostrar a mensagem de desconto
         mostrarMensagemDeDesconto(valorDesconto, valorTotalComDesconto, nomeSapato, df);
 
+        //Fechando o Scanner para não consumir memória
         entrada.close();
     }
 

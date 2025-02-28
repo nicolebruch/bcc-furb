@@ -27,6 +27,9 @@ public class Uni3Exe10 {
             System.out.println("Informe o cateto adjacente: ");
             double catetoAdjacente = entrada.nextDouble();
 
+            /* fecho o scanner para não consumir memória */
+            entrada.close();
+
             /* aqui eu to calculando o valor da hipotenusa */
             double hipotenusa = (catetoAdjacente * 2) + (catetoOposto * 2);
 

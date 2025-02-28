@@ -22,6 +22,9 @@ public class Uni3Exe14 {
         System.out.println("Informe o tempo gasto: ");
         double tempo = entrada.nextDouble();
 
+        /* fecho o scanner para não consumir memória */
+        entrada.close();
+
         /* cálculo para saber a velocidade média */
         double velocidadeMedia = distancia / tempo;
 

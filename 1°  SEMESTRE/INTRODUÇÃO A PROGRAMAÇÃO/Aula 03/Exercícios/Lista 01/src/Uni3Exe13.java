@@ -20,18 +20,21 @@ public class Uni3Exe13 {
         double azulejoEstampado = 12.50;
         double porM2 = 9;
 
-        /*peço pro usuário informar o comprimento da parede */
+        /* peço pro usuário informar o comprimento da parede */
         System.out.println("Qual o comprimento da parede?");
         double comprimento = entrada.nextDouble();
 
-        /*peço também para o usuário informar a altura da parede*/
+        /* fecho o scanner para não consumir memória */
+        entrada.close();
+
+        /* peço também para o usuário informar a altura da parede */
         System.out.println("Qual a altura da parede?");
         double altura = entrada.nextDouble();
 
-        /*calculo a área da parede para saber a quantidade de azulejos usados */
+        /* calculo a área da parede para saber a quantidade de azulejos usados */
         double area = comprimento * altura;
 
-        /*calculo o preço a ser pago */
+        /* calculo o preço a ser pago */
         System.out.println("O preço a ser pago é: R$" + area * (azulejoEstampado * porM2));
     }
 }
