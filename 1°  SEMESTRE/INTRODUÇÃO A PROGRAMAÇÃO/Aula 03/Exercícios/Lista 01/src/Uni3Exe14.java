@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Uni3Exe14 {
      public static void main(String[] args) {
+         /*
+         * Scanner pra poder estar puxando os dados
+         * na memória que o usuário informou
+         */
         Scanner entrada = new Scanner(System.in);
         float distancia = entrada.nextFloat();
         float tempo = entrada.nextFloat();

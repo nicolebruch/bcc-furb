@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class Uni3Exe15 {
     public static void main(String[] args) {
+         /*
+         * Scanner pra poder estar puxando os dados
+         * na memória que o usuário informou
+         */
         Scanner entrada = new Scanner(System.in);
          int numero = entrada.nextInt();
          int centena = numero / 100;

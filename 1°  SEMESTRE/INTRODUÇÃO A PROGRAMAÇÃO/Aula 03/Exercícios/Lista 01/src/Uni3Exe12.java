@@ -1,24 +1,58 @@
-/*Uma empresa tem para um funcionário os seguintes dados: o nome, o número de horas trabalhadas mensais e o número de dependentes. A empresa paga R$ 10,00 por hora (valor para cálculo do salário trabalho) e R$ 60,00 por dependente (valor para cálculo do salário família) e são feitos descontos de 8,5% sobre o salário trabalho para o INSS e de 5% sobre o salário trabalho para o imposto de renda. Descreva um programa que informe o nome, o salário bruto e o salário líquido do funcionário. */
+/*Uma empresa tem para um funcionário os seguintes dados:
+o nome, o número de horas trabalhadas mensais 
+e o número de dependentes. 
+A empresa paga R$ 10,00 por hora (valor para cálculo do salário trabalho)
+e R$ 60,00 por dependente (valor para cálculo do salário família) 
+e são feitos descontos de 8,5% sobre o salário trabalho para o INSS 
+e de 5% sobre o salário trabalho para o imposto de renda.
+Descreva um programa que informe 
+o nome, o salário bruto 
+e o salário líquido do funcionário. */
 
 import java.util.Scanner;
 
 public class Uni3Exe12 {
     public static void main(String[] args) {
+        /*
+         * Scanner pra poder estar puxando os dados
+         * na memória que o usuário informou
+         */
         Scanner entrada = new Scanner(System.in);
-        double reais_hora = 10;
-        double reais_dependente = 60;
+
+        /* declaro as variáveis aqui */
+        double salarioTrabalho = 10.00;
+        double salarioFamilia = 60.00;
         double inss = 0.085;
-        double ir = 0.05;
-        System.out.print("Informar o nome: ");
+
+        /* peço para informar o nome do funcionario */
+        System.out.println("Informe o nome do funcionário: ");
         String nome = entrada.nextLine();
-        System.out.print("Horas trabalhadas: ");
-        double horast = entrada.nextDouble();
-        System.out.print("Número de dependentes: ");
+
+        /* peço para informar o numero de horas trabalhadas */
+        System.out.println("Informe o número de horas trabalhadas: ");
+        double horasTrabalhadas = entrada.nextDouble();
+
+        /*
+         * peço para informar o número de dependentes que seria
+         * a quantidade de pessoas na família
+         */
+        System.out.println("Informe o número de dependentes: ");
         double dependentes = entrada.nextDouble();
-        double salariobruto = horast * reais_hora * (dependentes * reais_dependente);
-        System.out.print("O salário bruto de " + nome + " é: " + salariobruto);
-        double salario_liquido = (salariobruto * inss) * ir;
-        System.out.print("E seu salário liquido é: " + salario_liquido);
+
+        /* fechando o scanner para não consumir memória */
         entrada.close();
+
+        /*
+         * aqui eu realizo o cálculo do salário bruto onde incluo o valor do salario
+         * familia e quantidade de dependentes
+         */
+        double salarioBruto = (horasTrabalhadas * salarioTrabalho) + (dependentes * salarioFamilia);
+
+        /* já aqui é o cálculo do salário liquido, onde preciso incluir o inss */
+        double salarioLiquido = salarioBruto - (salarioBruto * inss) - (salarioBruto * 0.05);
+
+        /* printo as informações finais */
+        System.out.println("O funcionário " + nome + "possui o salário bruto de: " + salarioBruto
+                + " e o salário líquido de: " + salarioLiquido);
     }
 }

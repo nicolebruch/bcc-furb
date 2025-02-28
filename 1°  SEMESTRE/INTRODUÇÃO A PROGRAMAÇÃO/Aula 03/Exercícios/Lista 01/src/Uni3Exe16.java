@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Uni3Exe16 {
     public static void main(String[] args) {
+         /*
+         * Scanner pra poder estar puxando os dados
+         * na memória que o usuário informou
+         */
         Scanner entrada = new Scanner(System.in);
         System.out.println("Preço do produto: ");
         int valor = entrada.nextInt();
