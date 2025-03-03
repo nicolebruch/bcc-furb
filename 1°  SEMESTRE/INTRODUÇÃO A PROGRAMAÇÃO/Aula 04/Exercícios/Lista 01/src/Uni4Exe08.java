@@ -23,7 +23,6 @@ public class Uni4Exe08 {
 
         /* fecho o scanner p/ não consumir memória */
         entrada.close();
-
     }
 
 /*crio um método mais performático do que colocar uma condição enorme
@@ -35,15 +34,16 @@ public class Uni4Exe08 {
                 || Character.toUpperCase(letra) == 'I'
                 || Character.toUpperCase(letra) == 'O'
                 || Character.toUpperCase(letra) == 'U';
-
     }
 
+    /*crio um método void que serve apenas para eu mostrar
+     * no terminal as respostas da condição que eu criei
+     */
     private static void mostrarVogal(char letra) {
         if (vogal(letra)) {
             System.out.println("A letra é uma vogal");
         } else {
             System.out.println("A letra não é uma vogal");
         }
-
     }
 }
