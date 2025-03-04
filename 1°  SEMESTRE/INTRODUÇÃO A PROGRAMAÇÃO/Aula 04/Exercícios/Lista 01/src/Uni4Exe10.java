@@ -24,6 +24,9 @@ public class Uni4Exe10 {
         System.out.println("Informe a idade da Luluzinha");
         int idadeLuluzinha = entrada.nextInt();
 
+        /* fecho o scanner p/ não consumir memória */
+        entrada.close();
+
         /*
          * crio um if, caso a idade de marquinhos seja menor que a idade do
          * zezinho e da luluzinha, ele é o caçula

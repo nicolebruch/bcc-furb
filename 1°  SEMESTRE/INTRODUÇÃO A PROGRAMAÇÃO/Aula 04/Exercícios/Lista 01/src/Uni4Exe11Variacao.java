@@ -7,11 +7,11 @@ import java.util.Scanner;
 
 public class Uni4Exe11Variacao {
     public static void main(String[] args) {
-            
-            /*scanner para pegar os dados informados */
-            Scanner entrada = new Scanner(System.in);
 
-        /*peço p informar o nascimento dos irmaos */
+        /* scanner para pegar os dados informados */
+        Scanner entrada = new Scanner(System.in);
+
+        /* peço p informar o nascimento dos irmaos */
         System.out.println("Informe o ano de nascimento do primeiro irmão: ");
         int anoNascimentoIrmao1 = entrada.nextInt();
 
@@ -21,5 +21,58 @@ public class Uni4Exe11Variacao {
         System.out.println("Informe o ano de nascimento do terceiro irmão: ");
         int anoNascimentoIrmao3 = entrada.nextInt();
 
+        /* fecho o scanner p/ não consumir memória */
+        entrada.close();
+
+        /*
+         * aqui é pro método main conseguir mostrar a mensagem dizendo se são
+         * trigêmeos, gêmeos ou apenas irmãos
+         */
+        mostrarParentesco(anoNascimentoIrmao1, anoNascimentoIrmao2, anoNascimentoIrmao3);
+    }
+
+    /*
+     * crio um método mais performático do que colocar uma condição enorme dentro de
+     * um if e else
+     */
+    private static boolean saoTrigemeos(int anoNascimentoIrmao1, int anoNascimentoIrmao2, int anoNascimentoIrmao3) {
+        return anoNascimentoIrmao1 == anoNascimentoIrmao2 && anoNascimentoIrmao1 == anoNascimentoIrmao3;
+    }
+
+    /*
+     * crio um método mais performático do que colocar uma condição enorme dentro de
+     * um if e else
+     */
+    private static boolean saoGemeos(int anoNascimentoIrmao1, int anoNascimentoIrmao2, int anoNascimentoIrmao3) {
+        return anoNascimentoIrmao1 == anoNascimentoIrmao2 || anoNascimentoIrmao1 == anoNascimentoIrmao3
+                || anoNascimentoIrmao2 == anoNascimentoIrmao3;
+    }
+
+    /*
+     * crio um método void que serve apenas para eu mostrar
+     * no terminal as respostas da condição que eu criei
+     */
+    private static void mostrarParentesco(int anoNascimentoIrmao1, int anoNascimentoIrmao2, int anoNascimentoIrmao3) {
+        /*
+         * crio uma condição que caso o nascimento do irmao1 seja igual ao dos outros
+         * irmaos, eles sao
+         * trigemeos
+         */
+        if (saoTrigemeos(anoNascimentoIrmao1, anoNascimentoIrmao2, anoNascimentoIrmao3)) {
+            System.out.println("Os irmãos são trigêmeos");
+            /*
+             * caso o nascimento do irmao1 e irmao2 seja igual || irmao1 e irmao 3 igual ||
+             * irmao 2 e 3 igual,
+             * eles sao apenas gemeos, pois só 2 irmaos possuem o mesmo ano de nascimento
+             */
+        } else if (saoGemeos(anoNascimentoIrmao1, anoNascimentoIrmao2, anoNascimentoIrmao3)) {
+            System.out.println("Os irmãos são gêmeos");
+            /*
+             * caso nenhum dos irmaos tenha o mesmo ano de nascimento, eles sao apenas
+             * irmaos
+             */
+        } else {
+            System.out.println("Os irmãos são apenas irmãos");
+        }
     }
 }

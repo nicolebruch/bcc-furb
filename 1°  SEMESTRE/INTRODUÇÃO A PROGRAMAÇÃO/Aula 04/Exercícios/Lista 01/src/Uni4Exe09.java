@@ -17,6 +17,9 @@ public class Uni4Exe09 {
         System.out.println("Informe outro número inteiro: ");
         int numero2 = entrada.nextInt();
 
+        /* fecho o scanner p/ não consumir memória */
+        entrada.close();
+
         /* faço condição pra caso o resto dos números seja igual a zero */
         if (numero1 % numero2 == 0 || numero2 % numero1 == 0) {
             /* se os restos forem igual a zero, são múltiplos */
