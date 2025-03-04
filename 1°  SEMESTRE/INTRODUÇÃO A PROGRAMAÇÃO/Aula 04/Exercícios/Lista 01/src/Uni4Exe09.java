@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Uni4Exe09 {
     public static void main(String[] args) {
 
-        /* scabber para pegar os dados que for informado */
+        /* scanner para pegar os dados que for informado */
         Scanner entrada = new Scanner(System.in);
 
         /* peço pro usuário inserir o primeiro número */
