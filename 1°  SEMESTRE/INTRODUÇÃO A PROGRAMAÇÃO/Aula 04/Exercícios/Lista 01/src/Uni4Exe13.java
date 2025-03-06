@@ -36,6 +36,18 @@ public class Uni4Exe13 {
         /* fechando o scanner para não consumir memória */
         entrada.close();
 
+        /*
+         * declaro a variável que é utilizada como contador
+         * no método "contaCartasBoas", onde esse método utiliza
+         * 3 variáveis, sendo três cartas
+         */
+        int quantidadeCartasBoas = contaCartasBoas(carta1, carta2, carta3);
+
+        /*
+         * aqui eu utilizo pra mostrar o resultado para o usuário
+         * (que precisa ser declarado no método main)
+         */
+        mostrarResultado(quantidadeCartasBoas);
     }
 
     /*
@@ -121,6 +133,9 @@ public class Uni4Exe13 {
              */
         } else if (quantidadeCartasBoas == 3) {
             System.out.println("NOVE");
+
+        } else {
+            System.out.println("Não posssui cartas boas :(");
         }
     }
 }
