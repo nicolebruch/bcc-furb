@@ -7,6 +7,7 @@ e o produto das idades do homem mais novo com a mulher mais velha.
 import java.util.Scanner;
 
 public class Uni4Exe16 {
+    
     public static void main(String[] args) {
 
         /*
