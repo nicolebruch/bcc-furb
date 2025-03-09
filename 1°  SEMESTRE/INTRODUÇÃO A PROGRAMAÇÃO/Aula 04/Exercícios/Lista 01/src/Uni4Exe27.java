@@ -52,8 +52,11 @@ public class Uni4Exe27 {
         /* calcula o preco total */
         double preco = calculaPrecoTotal(horasCobradas);
 
-        /* exibe o valor final */
-        mostrarValor(preco);
+        /* calcula o valor adicional */
+        double precoAdicional = calculaPrecoAdicional(horasCobradas);
+
+        /* exibe o valor final e o adicional */
+        mostrarValor(preco, precoAdicional);
 
         /* fecha o scanner para não consumir memória */
         entrada.close();
@@ -122,10 +125,27 @@ public class Uni4Exe27 {
         return preco;
     }
 
+    /* metodo para calcular o valor adicional que foi cobrado */
+    private static double calculaPrecoAdicional(int horasCobradas) {
+        double precoAdicional = 0;
+
+        /* verifica se houve horas além das primeiras 2 ou 4 horas */
+        if (horasCobradas > 2 && horasCobradas <= 4) {
+            precoAdicional = (horasCobradas - 2) * 7.50;
+        } else if (horasCobradas > 4) {
+            precoAdicional = 2 * 7.50 + (horasCobradas - 4) * 10.00;
+        }
+
+        return precoAdicional;
+    }
+
     /* metodo para exibir o valor final a ser pago */
     /* recebe o preco calculado e exibe no formato de moeda */
-    private static void mostrarValor(double preco) {
+    private static void mostrarValor(double preco, double precoAdicional) {
         /* exibe o preço final formatado como R$ */
-        System.out.println("total a pagar: " + preco);
+        System.out.println("total a pagar: R$ " + preco);
+        if (precoAdicional > 0) {
+            System.out.println("valor adicional: R$ " + precoAdicional);
+        }
     }
 }
