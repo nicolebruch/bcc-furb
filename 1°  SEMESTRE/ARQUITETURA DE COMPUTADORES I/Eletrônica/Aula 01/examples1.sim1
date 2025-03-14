@@ -1,0 +1,383 @@
+<circuit version="1.1.0-SR1" rev="" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Battery" CircId="Battery-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-1464,-364" rotation="1530" hflip="1" vflip="1" label="Battery-2" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-396" rotation="0" hflip="1" vflip="1" label="Voltimeter-3" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Lamp" CircId="Lamp-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-1424,-388" rotation="0" hflip="1" vflip="1" label="Lamp-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="Amperimeter" CircId="Amperimeter-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,-440" rotation="0" hflip="1" vflip="1" label="Amperimeter-5" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1428,-344" rotation="0" hflip="1" vflip="1" label="Resistor-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="20 Ω" />
+
+<item itemtype="Rail" CircId="Rail-13" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-1344,-548" rotation="90" hflip="1" vflip="1" label="Rail-13" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-1348,-368" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-14" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-1276,-340" rotation="0" hflip="1" vflip="1" label="Ground-16" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="WaveGen" CircId="WaveGen-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,-1044" rotation="0" hflip="1" vflip="1" label="WaveGen-24" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Oscope" CircId="Oscope-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-828,-996" rotation="0" hflip="1" vflip="1" label="Oscope-25" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="677607975" TimPos="-3189610062,-3189610062,-3189610062,-3189610062," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="WaveGen" CircId="WaveGen-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,-1012" rotation="0" hflip="1" vflip="1" label="WaveGen-26" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Square" Freq="1 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-27" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,-980" rotation="0" hflip="1" vflip="1" label="WaveGen-27" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Random" Freq="1 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,-948" rotation="0" hflip="1" vflip="1" label="WaveGen-28" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Wav" Freq="5 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,-824" rotation="0" hflip="1" vflip="1" label="FreqMeter-30" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,-824" rotation="0" hflip="1" vflip="1" label="WaveGen-31" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,-792" rotation="0" hflip="1" vflip="1" label="WaveGen-32" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Square" Freq="1 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-33" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,-756" rotation="0" hflip="1" vflip="1" label="WaveGen-33" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Random" Freq="1 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="WaveGen" CircId="WaveGen-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,-724" rotation="0" hflip="1" vflip="1" label="WaveGen-34" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Wav" Freq="5 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,-792" rotation="0" hflip="1" vflip="1" label="FreqMeter-35" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,-756" rotation="0" hflip="1" vflip="1" label="FreqMeter-36" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,-724" rotation="0" hflip="1" vflip="1" label="FreqMeter-37" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-38" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-1176,-748" rotation="0" hflip="1" vflip="1" label="Voltage Source-38" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="5 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-1060,-792" rotation="0" hflip="1" vflip="1" label="Voltimeter-39" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-1052,-708" rotation="0" hflip="1" vflip="1" label="Ground-40" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-1288,-528" rotation="0" hflip="1" vflip="1" label="Voltimeter-41" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-1280,-472" rotation="0" hflip="1" vflip="1" label="Ground-42" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-940,-728" rotation="90" hflip="1" vflip="1" label="Battery-46" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-47" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-892,-800" rotation="0" hflip="1" vflip="1" label="Potentiometer-47" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1 kΩ" Value_Ohm="0 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-48" mainComp="false" Show_id="false" Show_Val="false" Pos="-776,-788" rotation="0" hflip="1" vflip="1" label="Voltimeter-48" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-872" rotation="0" hflip="1" vflip="1" label="Voltimeter-51" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-52" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-608,-796" rotation="0" hflip="1" vflip="1" label="Potentiometer-52" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1 kΩ" Value_Ohm="827 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Battery" CircId="Battery-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-656,-724" rotation="90" hflip="1" vflip="1" label="Battery-53" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Battery" CircId="Battery-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-1472,-100" rotation="90" hflip="1" vflip="1" label="Battery-58" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="DcMotor" CircId="DcMotor-59" mainComp="false" Show_id="true" Show_Val="false" Pos="-1348,-156" rotation="0" hflip="1" vflip="1" label="DcMotor-59" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Amperimeter" CircId="Amperimeter-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-1148,-172" rotation="0" hflip="1" vflip="1" label="Amperimeter-60" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-1156,-100" rotation="90" hflip="1" vflip="1" label="Battery-61" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="DcMotor" CircId="DcMotor-62" mainComp="false" Show_id="true" Show_Val="false" Pos="-1032,-156" rotation="0" hflip="1" vflip="1" label="DcMotor-62" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Amperimeter" CircId="Amperimeter-64" mainComp="false" Show_id="false" Show_Val="false" Pos="-1352,32" rotation="0" hflip="1" vflip="1" label="Amperimeter-64" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-65" mainComp="false" Show_id="false" Show_Val="false" Pos="-1472,136" rotation="90" hflip="1" vflip="1" label="Battery-65" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="DcMotor" CircId="DcMotor-66" mainComp="false" Show_id="true" Show_Val="false" Pos="-1268,56" rotation="0" hflip="1" vflip="1" label="DcMotor-66" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="VarResistor" CircId="VarResistor-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-1456,56" rotation="0" hflip="1" vflip="1" label="VarResistor-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Min_Resistance="0 Ω" Max_Resistance="1 kΩ" Value_Ohm="685 Ω" Dial_Step="0 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Battery" CircId="Battery-72" mainComp="false" Show_id="false" Show_Val="false" Pos="-1156,136" rotation="90" hflip="1" vflip="1" label="Battery-72" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Amperimeter" CircId="Amperimeter-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-1036,32" rotation="0" hflip="1" vflip="1" label="Amperimeter-73" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="VarResistor" CircId="VarResistor-74" mainComp="false" Show_id="false" Show_Val="false" Pos="-1140,56" rotation="0" hflip="1" vflip="1" label="VarResistor-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Min_Resistance="1e-12 Ω" Max_Resistance="1 kΩ" Value_Ohm="489 Ω" Dial_Step="0 Ω" Slider="true" Scale="1" />
+
+<item itemtype="DcMotor" CircId="DcMotor-75" mainComp="false" Show_id="true" Show_Val="false" Pos="-952,56" rotation="0" hflip="1" vflip="1" label="DcMotor-75" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Oscope" CircId="Oscope-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-996" rotation="0" hflip="1" vflip="1" label="Oscope-77" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Clock" CircId="Clock-78" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,-1044" rotation="0" hflip="1" vflip="1" label="Clock-78" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="1 kHz" Always_On="false" />
+
+<item itemtype="Switch" CircId="Switch-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-1396,484" rotation="0" hflip="1" vflip="1" label="Switch-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Battery" CircId="Battery-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-1496,624" rotation="90" hflip="1" vflip="1" label="Battery-80" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Switch" CircId="Switch-81" mainComp="false" Show_id="false" Show_Val="false" Pos="-1396,552" rotation="0" hflip="1" vflip="1" label="Switch-81" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Resistor" CircId="Resistor-85" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1304,552" rotation="0" hflip="1" vflip="1" label="Resistor-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Lamp" CircId="Lamp-88" mainComp="false" Show_id="false" Show_Val="false" Pos="-1248,512" rotation="0" hflip="1" vflip="1" label="Lamp-88" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="TextComponent" CircId="TextComponent-94" mainComp="false" Show_id="false" Show_Val="false" Pos="-1468,592" rotation="0" hflip="1" vflip="1" label="TextComponent-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="COMPUTADOR OU" />
+
+<item itemtype="Resistor" CircId="Resistor-95" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1308,332" rotation="0" hflip="1" vflip="1" label="Resistor-95" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-96" mainComp="false" Show_id="false" Show_Val="false" Pos="-1500,404" rotation="90" hflip="1" vflip="1" label="Battery-96" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="TextComponent" CircId="TextComponent-97" mainComp="false" Show_id="false" Show_Val="false" Pos="-1472,372" rotation="0" hflip="1" vflip="1" label="TextComponent-97" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="COMPUTADOR E" />
+
+<item itemtype="Switch" CircId="Switch-98" mainComp="false" Show_id="false" Show_Val="false" Pos="-1460,292" rotation="0" hflip="1" vflip="1" label="Switch-98" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-99" mainComp="false" Show_id="false" Show_Val="false" Pos="-1396,292" rotation="0" hflip="1" vflip="1" label="Switch-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Lamp" CircId="Lamp-102" mainComp="false" Show_id="false" Show_Val="false" Pos="-1252,292" rotation="0" hflip="1" vflip="1" label="Lamp-102" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="Resistor" CircId="Resistor-105" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1004,316" rotation="0" hflip="1" vflip="1" label="Resistor-105" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Switch" CircId="Switch-106" mainComp="false" Show_id="false" Show_Val="false" Pos="-1072,304" rotation="0" hflip="1" vflip="1" label="Switch-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="true" Poles="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-107" mainComp="false" Show_id="false" Show_Val="false" Pos="-1132,368" rotation="0" hflip="1" vflip="1" label="TextComponent-107" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="COMPUTADOR NÃO" />
+
+<item itemtype="Battery" CircId="Battery-108" mainComp="false" Show_id="false" Show_Val="false" Pos="-1160,400" rotation="90" hflip="1" vflip="1" label="Battery-108" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Lamp" CircId="Lamp-109" mainComp="false" Show_id="false" Show_Val="false" Pos="-912,288" rotation="0" hflip="1" vflip="1" label="Lamp-109" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-113" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,736" rotation="0" hflip="1" vflip="1" label="RelaySPST-113" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="true" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Battery" CircId="Battery-114" mainComp="false" Show_id="false" Show_Val="false" Pos="-1480,832" rotation="90" hflip="1" vflip="1" label="Battery-114" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Battery" CircId="Battery-115" mainComp="false" Show_id="false" Show_Val="false" Pos="-1424,804" rotation="90" hflip="1" vflip="1" label="Battery-115" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Switch" CircId="Switch-116" mainComp="false" Show_id="false" Show_Val="false" Pos="-1396,736" rotation="0" hflip="1" vflip="1" label="Switch-116" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Resistor" CircId="Resistor-117" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1080,720" rotation="0" hflip="1" vflip="1" label="Resistor-117" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Lamp" CircId="Lamp-118" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,720" rotation="0" hflip="1" vflip="1" label="Lamp-118" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-122" mainComp="false" Show_id="false" Show_Val="false" Pos="-1188,736" rotation="0" hflip="1" vflip="1" label="RelaySPST-122" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="true" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="TextComponent" CircId="TextComponent-123" mainComp="false" Show_id="false" Show_Val="false" Pos="-1124,788" rotation="0" hflip="1" vflip="1" label="TextComponent-123" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="ELETROMECÂNICO E" />
+
+<item itemtype="Battery" CircId="Battery-128" mainComp="false" Show_id="false" Show_Val="false" Pos="-1280,804" rotation="90" hflip="1" vflip="1" label="Battery-128" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Switch" CircId="Switch-129" mainComp="false" Show_id="false" Show_Val="false" Pos="-1244,744" rotation="0" hflip="1" vflip="1" label="Switch-129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Battery" CircId="Battery-144" mainComp="false" Show_id="false" Show_Val="false" Pos="-1496,1020" rotation="90" hflip="1" vflip="1" label="Battery-144" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-145" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1176,1004" rotation="0" hflip="1" vflip="1" label="Resistor-145" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Lamp" CircId="Lamp-146" mainComp="false" Show_id="false" Show_Val="false" Pos="-1056,1004" rotation="0" hflip="1" vflip="1" label="Lamp-146" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="Battery" CircId="Battery-150" mainComp="false" Show_id="false" Show_Val="false" Pos="-1436,976" rotation="90" hflip="1" vflip="1" label="Battery-150" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-151" mainComp="false" Show_id="false" Show_Val="false" Pos="-1336,908" rotation="0" hflip="1" vflip="1" label="RelaySPST-151" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Switch" CircId="Switch-152" mainComp="false" Show_id="false" Show_Val="false" Pos="-1408,908" rotation="0" hflip="1" vflip="1" label="Switch-152" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-153" mainComp="false" Show_id="false" Show_Val="false" Pos="-1340,1028" rotation="0" hflip="1" vflip="1" label="RelaySPST-153" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Battery" CircId="Battery-154" mainComp="false" Show_id="false" Show_Val="false" Pos="-1440,1096" rotation="90" hflip="1" vflip="1" label="Battery-154" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Switch" CircId="Switch-155" mainComp="false" Show_id="false" Show_Val="false" Pos="-1412,1028" rotation="0" hflip="1" vflip="1" label="Switch-155" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-158" mainComp="false" Show_id="false" Show_Val="false" Pos="-1232,1084" rotation="0" hflip="1" vflip="1" label="TextComponent-158" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="ELETROMECÂNICO OU" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-680,868" rotation="0" hflip="1" vflip="1" label="RelaySPST-159" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Switch" CircId="Switch-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-752,868" rotation="0" hflip="1" vflip="1" label="Switch-160" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Battery" CircId="Battery-161" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,936" rotation="90" hflip="1" vflip="1" label="Battery-161" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Switch" CircId="Switch-162" mainComp="false" Show_id="false" Show_Val="false" Pos="-752,1020" rotation="0" hflip="1" vflip="1" label="Switch-162" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-163" mainComp="false" Show_id="false" Show_Val="false" Pos="-680,1020" rotation="0" hflip="1" vflip="1" label="RelaySPST-163" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Battery" CircId="Battery-164" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,1088" rotation="90" hflip="1" vflip="1" label="Battery-164" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Battery" CircId="Battery-165" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,932" rotation="90" hflip="1" vflip="1" label="Battery-165" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-168" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,1136" rotation="0" hflip="1" vflip="1" label="Ground-168" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-49" mainComp="false" Pos="-876,-712" />
+
+<item itemtype="Node" CircId="Node-56" mainComp="false" Pos="-592,-792" />
+
+<item itemtype="Node" CircId="Node-57" mainComp="false" Pos="-656,-796" />
+
+<item itemtype="Node" CircId="Node-87" mainComp="false" Pos="-1356,552" />
+
+<item itemtype="Node" CircId="Node-89" mainComp="false" Pos="-1432,484" />
+
+<item itemtype="Node" CircId="Node-156" mainComp="false" Pos="-1468,1004" />
+
+<item itemtype="Node" CircId="Node-157" mainComp="false" Pos="-1296,948" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Amperimeter-5-rPin" endpinid="Lamp-4-lPin" pointList="-1448,-424,-1448,-388,-1440,-388" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Amperimeter-5-lPin" endpinid="Battery-2-lPin" pointList="-1464,-424,-1464,-380" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="Lamp-4-rPin" endpinid="Resistor-9-rPin" pointList="-1408,-388,-1408,-344,-1412,-344" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Resistor-9-lPin" endpinid="Battery-2-rPin" pointList="-1444,-344,-1464,-344,-1464,-348" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Ground-16-Gnd" endpinid="Voltimeter-3-rPin" pointList="-1276,-356,-1276,-380" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Voltimeter-3-lPin" endpinid="Fixed Voltage-14-outnod" pointList="-1292,-380,-1292,-368,-1332,-368" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="WaveGen-24-outnod" endpinid="Oscope-25-Pin0" pointList="-1024,-1044,-916,-1044" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="WaveGen-26-outnod" endpinid="Oscope-25-Pin1" pointList="-1024,-1012,-916,-1012" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="WaveGen-27-outnod" endpinid="Oscope-25-Pin2" pointList="-1024,-980,-916,-980" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="WaveGen-28-outnod" endpinid="Oscope-25-Pin3" pointList="-1024,-948,-916,-948" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="WaveGen-31-outnod" endpinid="FreqMeter-30-lPin" pointList="-1440,-824,-1364,-824" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="WaveGen-32-outnod" endpinid="FreqMeter-35-lPin" pointList="-1440,-792,-1364,-792" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="WaveGen-33-outnod" endpinid="FreqMeter-36-lPin" pointList="-1440,-756,-1364,-756" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="WaveGen-34-outnod" endpinid="FreqMeter-37-lPin" pointList="-1440,-724,-1364,-724" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Voltimeter-39-lPin" endpinid="Voltage Source-38-outPin" pointList="-1068,-776,-1068,-732,-1148,-732" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Voltimeter-39-rPin" endpinid="Ground-40-Gnd" pointList="-1052,-776,-1052,-724" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Ground-42-Gnd" endpinid="Voltimeter-41-rPin" pointList="-1280,-488,-1280,-512" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Rail-13-outnod" endpinid="Voltimeter-41-lPin" pointList="-1344,-532,-1344,-484,-1296,-484,-1296,-512" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Battery-46-lPin" endpinid="Potentiometer-47-PinA" pointList="-940,-744,-940,-800,-908,-800" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="Voltimeter-48-lPin" endpinid="Potentiometer-47-PinM" pointList="-784,-772,-892,-772,-892,-784" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Potentiometer-47-PinB" endpinid="Node-49-0" pointList="-876,-800,-876,-712" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-49-2" endpinid="Battery-46-rPin" pointList="-876,-712,-940,-712" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Voltimeter-51-rPin" endpinid="Node-56-1" pointList="-616,-856,-592,-856,-592,-792" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Potentiometer-52-PinB" endpinid="Node-56-0" pointList="-592,-796,-592,-792" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="Node-56-2" endpinid="Battery-53-rPin" pointList="-592,-792,-592,-708,-656,-708" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Voltimeter-51-lPin" endpinid="Node-57-1" pointList="-632,-856,-656,-856,-656,-796" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Battery-53-lPin" endpinid="Node-57-0" pointList="-656,-740,-656,-796" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Node-57-2" endpinid="Potentiometer-52-PinA" pointList="-656,-796,-624,-796" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="DcMotor-59-lPin" endpinid="Battery-58-lPin" pointList="-1388,-156,-1472,-156,-1472,-116" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="Battery-58-rPin" endpinid="DcMotor-59-rPin" pointList="-1472,-84,-1472,-80,-1308,-80,-1308,-156" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="Battery-61-rPin" endpinid="DcMotor-62-rPin" pointList="-1156,-84,-1156,-80,-992,-80,-992,-156" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Amperimeter-60-lPin" endpinid="Battery-61-lPin" pointList="-1156,-156,-1156,-116" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="Amperimeter-60-rPin" endpinid="DcMotor-62-lPin" pointList="-1140,-156,-1072,-156" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="Battery-65-rPin" endpinid="DcMotor-66-rPin" pointList="-1472,152,-1228,152,-1228,56" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Amperimeter-64-rPin" endpinid="DcMotor-66-lPin" pointList="-1344,48,-1344,56,-1308,56" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="VarResistor-70-lPin" endpinid="Battery-65-lPin" pointList="-1472,56,-1472,120" />
+
+<item itemtype="Connector" uid="Connector-111" startpinid="VarResistor-70-rPin" endpinid="Amperimeter-64-lPin" pointList="-1440,56,-1360,56,-1360,48" />
+
+<item itemtype="Connector" uid="Connector-112" startpinid="Battery-72-rPin" endpinid="DcMotor-75-rPin" pointList="-1156,152,-912,152,-912,56" />
+
+<item itemtype="Connector" uid="Connector-113" startpinid="VarResistor-74-rPin" endpinid="Amperimeter-73-lPin" pointList="-1124,56,-1044,56,-1044,48" />
+
+<item itemtype="Connector" uid="Connector-114" startpinid="Amperimeter-73-rPin" endpinid="DcMotor-75-lPin" pointList="-1028,48,-1028,56,-992,56" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="VarResistor-74-lPin" endpinid="Battery-72-lPin" pointList="-1156,56,-1156,120" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="Voltimeter-48-rPin" endpinid="Node-49-1" pointList="-768,-772,-768,-712,-876,-712" />
+
+<item itemtype="Connector" uid="Connector-120" startpinid="Clock-78-outnod" endpinid="Oscope-77-Pin0" pointList="-612,-1044,-556,-1044" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Node-87-1" endpinid="Resistor-85-lPin" pointList="-1356,552,-1320,552" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Switch-79-switch0pinN" endpinid="Node-87-0" pointList="-1380,484,-1356,484,-1356,552" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Node-87-2" endpinid="Switch-81-switch0pinN" pointList="-1356,552,-1380,552" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Resistor-85-rPin" endpinid="Lamp-88-lPin" pointList="-1288,552,-1264,552,-1264,512" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="Battery-80-lPin" endpinid="Node-89-1" pointList="-1496,608,-1496,484,-1432,484" />
+
+<item itemtype="Connector" uid="Connector-135" startpinid="Switch-79-pinP0" endpinid="Node-89-0" pointList="-1412,484,-1432,484" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="Node-89-2" endpinid="Switch-81-pinP0" pointList="-1432,484,-1432,552,-1412,552" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="Lamp-88-rPin" endpinid="Battery-80-rPin" pointList="-1232,512,-1232,640,-1496,640" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="Lamp-102-rPin" endpinid="Battery-96-rPin" pointList="-1236,292,-1236,420,-1500,420" />
+
+<item itemtype="Connector" uid="Connector-156" startpinid="Resistor-95-rPin" endpinid="Lamp-102-lPin" pointList="-1292,332,-1268,332,-1268,292" />
+
+<item itemtype="Connector" uid="Connector-162" startpinid="Switch-99-switch0pinN" endpinid="Resistor-95-lPin" pointList="-1380,292,-1360,292,-1360,332,-1324,332" />
+
+<item itemtype="Connector" uid="Connector-163" startpinid="Switch-98-switch0pinN" endpinid="Switch-99-pinP0" pointList="-1444,292,-1412,292" />
+
+<item itemtype="Connector" uid="Connector-164" startpinid="Switch-98-pinP0" endpinid="Battery-96-lPin" pointList="-1476,292,-1500,292,-1500,388" />
+
+<item itemtype="Connector" uid="Connector-168" startpinid="Lamp-109-rPin" endpinid="Battery-108-rPin" pointList="-896,288,-896,416,-1160,416" />
+
+<item itemtype="Connector" uid="Connector-169" startpinid="Resistor-105-rPin" endpinid="Lamp-109-lPin" pointList="-988,316,-928,316,-928,288" />
+
+<item itemtype="Connector" uid="Connector-174" startpinid="Switch-106-switch1pinN" endpinid="Resistor-105-lPin" pointList="-1056,296,-1020,296,-1020,316" />
+
+<item itemtype="Connector" uid="Connector-175" startpinid="Battery-108-lPin" endpinid="Switch-106-pinP0" pointList="-1160,384,-1160,304,-1088,304" />
+
+<item itemtype="Connector" uid="Connector-177" startpinid="Battery-114-rPin" endpinid="Lamp-118-rPin" pointList="-1480,848,-992,848,-992,720" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="Battery-115-rPin" endpinid="RelaySPST-113-inductor-rPin" pointList="-1424,820,-1308,820,-1308,736" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="Battery-115-lPin" endpinid="Switch-116-pinP0" pointList="-1424,788,-1424,736,-1412,736" />
+
+<item itemtype="Connector" uid="Connector-192" startpinid="RelaySPST-113-inductor-lPin" endpinid="Switch-116-switch0pinN" pointList="-1340,736,-1380,736" />
+
+<item itemtype="Connector" uid="Connector-178" startpinid="Lamp-118-lPin" endpinid="Resistor-117-rPin" pointList="-1024,720,-1064,720" />
+
+<item itemtype="Connector" uid="Connector-211" startpinid="RelaySPST-122-inductor-rPin" endpinid="Battery-128-rPin" pointList="-1172,736,-1172,820,-1280,820" />
+
+<item itemtype="Connector" uid="Connector-216" startpinid="Battery-114-lPin" endpinid="RelaySPST-113-pinP2" pointList="-1480,816,-1480,720,-1340,720" />
+
+<item itemtype="Connector" uid="Connector-218" startpinid="RelaySPST-113-switch0pinN" endpinid="RelaySPST-122-pinP2" pointList="-1308,720,-1204,720" />
+
+<item itemtype="Connector" uid="Connector-219" startpinid="RelaySPST-122-switch0pinN" endpinid="Resistor-117-lPin" pointList="-1172,720,-1096,720" />
+
+<item itemtype="Connector" uid="Connector-210" startpinid="Battery-128-lPin" endpinid="RelaySPST-122-inductor-lPin" pointList="-1280,788,-1280,744,-1204,744,-1204,736" />
+
+<item itemtype="Connector" uid="Connector-237" startpinid="Resistor-145-rPin" endpinid="Lamp-146-lPin" pointList="-1160,1004,-1072,1004" />
+
+<item itemtype="Connector" uid="Connector-250" startpinid="Battery-150-lPin" endpinid="Switch-152-pinP0" pointList="-1436,960,-1436,908,-1424,908" />
+
+<item itemtype="Connector" uid="Connector-251" startpinid="RelaySPST-151-inductor-lPin" endpinid="Switch-152-switch0pinN" pointList="-1352,908,-1392,908" />
+
+<item itemtype="Connector" uid="Connector-253" startpinid="Battery-154-lPin" endpinid="Switch-155-pinP0" pointList="-1440,1080,-1440,1028,-1428,1028" />
+
+<item itemtype="Connector" uid="Connector-254" startpinid="RelaySPST-153-inductor-lPin" endpinid="Switch-155-switch0pinN" pointList="-1356,1028,-1396,1028" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="Battery-154-rPin" endpinid="RelaySPST-153-inductor-rPin" pointList="-1440,1112,-1324,1112,-1324,1028" />
+
+<item itemtype="Connector" uid="Connector-249" startpinid="Battery-150-rPin" endpinid="RelaySPST-151-inductor-rPin" pointList="-1436,992,-1320,992,-1320,908" />
+
+<item itemtype="Connector" uid="Connector-258" startpinid="Node-156-1" endpinid="RelaySPST-153-pinP2" pointList="-1468,1004,-1468,1012,-1356,1012" />
+
+<item itemtype="Connector" uid="Connector-259" startpinid="RelaySPST-151-pinP2" endpinid="Node-156-0" pointList="-1352,892,-1468,892,-1468,1004" />
+
+<item itemtype="Connector" uid="Connector-260" startpinid="Node-156-2" endpinid="Battery-144-lPin" pointList="-1468,1004,-1496,1004" />
+
+<item itemtype="Connector" uid="Connector-262" startpinid="Battery-144-rPin" endpinid="Lamp-146-rPin" pointList="-1496,1036,-1496,1132,-1040,1132,-1040,1004" />
+
+<item itemtype="Connector" uid="Connector-263" startpinid="Node-157-1" endpinid="Resistor-145-lPin" pointList="-1296,948,-1192,948,-1192,1004" />
+
+<item itemtype="Connector" uid="Connector-264" startpinid="RelaySPST-153-switch0pinN" endpinid="Node-157-0" pointList="-1324,1012,-1296,1012,-1296,948" />
+
+<item itemtype="Connector" uid="Connector-265" startpinid="Node-157-2" endpinid="RelaySPST-151-switch0pinN" pointList="-1296,948,-1296,892,-1320,892" />
+
+<item itemtype="Connector" uid="Connector-267" startpinid="Battery-161-rPin" endpinid="RelaySPST-159-inductor-rPin" pointList="-780,952,-664,952,-664,868" />
+
+<item itemtype="Connector" uid="Connector-268" startpinid="RelaySPST-159-inductor-lPin" endpinid="Switch-160-switch0pinN" pointList="-696,868,-736,868" />
+
+<item itemtype="Connector" uid="Connector-269" startpinid="Battery-164-lPin" endpinid="Switch-162-pinP0" pointList="-780,1072,-780,1020,-768,1020" />
+
+<item itemtype="Connector" uid="Connector-270" startpinid="Battery-164-rPin" endpinid="RelaySPST-163-inductor-rPin" pointList="-780,1104,-664,1104,-664,1020" />
+
+<item itemtype="Connector" uid="Connector-271" startpinid="RelaySPST-163-inductor-lPin" endpinid="Switch-162-switch0pinN" pointList="-696,1020,-736,1020" />
+
+<item itemtype="Connector" uid="Connector-279" startpinid="Battery-165-rPin" endpinid="Ground-168-Gnd" pointList="-872,948,-872,1120" />
+
+<item itemtype="Connector" uid="Connector-280" startpinid="Battery-161-lPin" endpinid="Switch-160-pinP0" pointList="-780,920,-780,868,-768,868" />
+
+</circuit>
