@@ -1,0 +1,225 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="TextComponent" CircId="TextComponent-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,-204" rotation="0" hflip="1" vflip="1" label="PORTA  CINTO  MARCHA  EMBREAGEM" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="PORTA (A) CINTO (B)  MARCHA (C) EMBREAGEM (D)" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-112" rotation="0" hflip="1" vflip="1" label="RelaySPST-9" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-10" mainComp="false" Show_id="false" Show_Val="false" Pos="8,-112" rotation="0" hflip="1" vflip="1" label="RelaySPST-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-11" mainComp="false" Show_id="false" Show_Val="false" Pos="72,-112" rotation="0" hflip="1" vflip="1" label="RelaySPST-11" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-12" mainComp="false" Show_id="false" Show_Val="false" Pos="136,-112" rotation="0" hflip="1" vflip="1" label="RelaySPST-12" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-13" mainComp="false" Show_id="false" Show_Val="false" Pos="8,-36" rotation="0" hflip="1" vflip="1" label="RelaySPST-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-14" mainComp="false" Show_id="false" Show_Val="false" Pos="72,-36" rotation="0" hflip="1" vflip="1" label="RelaySPST-14" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="true" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-36" rotation="0" hflip="1" vflip="1" label="RelaySPST-15" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-16" mainComp="false" Show_id="false" Show_Val="false" Pos="136,-36" rotation="0" hflip="1" vflip="1" label="RelaySPST-16" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-17" mainComp="false" Show_id="false" Show_Val="false" Pos="72,40" rotation="0" hflip="1" vflip="1" label="RelaySPST-17" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,40" rotation="0" hflip="1" vflip="1" label="RelaySPST-18" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-19" mainComp="false" Show_id="false" Show_Val="false" Pos="8,40" rotation="0" hflip="1" vflip="1" label="RelaySPST-19" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-20" mainComp="false" Show_id="false" Show_Val="false" Pos="136,40" rotation="0" hflip="1" vflip="1" label="RelaySPST-20" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Switch" CircId="Switch-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,104" rotation="0" hflip="1" vflip="1" label="Switch-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,104" rotation="0" hflip="1" vflip="1" label="Switch-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-23" mainComp="false" Show_id="false" Show_Val="false" Pos="24,104" rotation="0" hflip="1" vflip="1" label="Switch-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-24" mainComp="false" Show_id="false" Show_Val="false" Pos="92,104" rotation="0" hflip="1" vflip="1" label="Switch-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Battery" CircId="Battery-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,276" rotation="90" hflip="1" vflip="1" label="Battery-25" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-37" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-84" rotation="0" hflip="1" vflip="1" label="Ground-37" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-38" mainComp="false" Show_id="false" Show_Val="false" Pos="172,-88" rotation="0" hflip="1" vflip="1" label="Ground-38" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-39" mainComp="false" Show_id="false" Show_Val="false" Pos="24,-84" rotation="0" hflip="1" vflip="1" label="Ground-39" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-84" rotation="0" hflip="1" vflip="1" label="Ground-40" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-42" mainComp="false" Show_id="false" Show_Val="false" Pos="24,-8" rotation="0" hflip="1" vflip="1" label="Ground-42" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-43" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-8" rotation="0" hflip="1" vflip="1" label="Ground-43" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-8" rotation="0" hflip="1" vflip="1" label="Ground-44" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-46" mainComp="false" Show_id="false" Show_Val="false" Pos="24,72" rotation="0" hflip="1" vflip="1" label="Ground-46" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-47" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,72" rotation="0" hflip="1" vflip="1" label="Ground-47" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-48" mainComp="false" Show_id="false" Show_Val="false" Pos="168,68" rotation="0" hflip="1" vflip="1" label="Ground-48" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-49" mainComp="false" Show_id="false" Show_Val="false" Pos="88,72" rotation="0" hflip="1" vflip="1" label="Ground-49" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-50" mainComp="false" Show_id="false" Show_Val="false" Pos="172,-16" rotation="0" hflip="1" vflip="1" label="Ground-50" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,332" rotation="0" hflip="1" vflip="1" label="Ground-51" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="DcMotor" CircId="DcMotor-52" mainComp="false" Show_id="true" Show_Val="false" Pos="324,-32" rotation="90" hflip="1" vflip="1" label="DcMotor-52" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-56" rotation="90" hflip="1" vflip="1" label="Battery-54" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,24" rotation="0" hflip="1" vflip="1" label="Ground-55" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-58" mainComp="false" Show_id="false" Show_Val="false" Pos="324,76" rotation="0" hflip="1" vflip="1" label="Ground-58" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-26" mainComp="false" Pos="-244,148" />
+
+<item itemtype="Node" CircId="Node-27" mainComp="false" Pos="-244,184" />
+
+<item itemtype="Node" CircId="Node-28" mainComp="false" Pos="-244,220" />
+
+<item itemtype="Node" CircId="Node-29" mainComp="false" Pos="-80,-36" />
+
+<item itemtype="Node" CircId="Node-30" mainComp="false" Pos="-24,-36" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="40,-36" />
+
+<item itemtype="Node" CircId="Node-32" mainComp="false" Pos="108,-36" />
+
+<item itemtype="Node" CircId="Node-33" mainComp="false" Pos="108,40" />
+
+<item itemtype="Node" CircId="Node-34" mainComp="false" Pos="40,40" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="-24,40" />
+
+<item itemtype="Node" CircId="Node-36" mainComp="false" Pos="-80,40" />
+
+<item itemtype="Node" CircId="Node-56" mainComp="false" Pos="-372,-88" />
+
+<item itemtype="Node" CircId="Node-57" mainComp="false" Pos="-212,-52" />
+
+<item itemtype="Node" CircId="Node-60" mainComp="false" Pos="260,-136" />
+
+<item itemtype="Node" CircId="Node-62" mainComp="false" Pos="260,-52" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Node-26-1" endpinid="Switch-22-pinP0" pointList="-244,148,-56,148,-56,104" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Node-26-2" endpinid="Switch-21-pinP0" pointList="-244,148,-244,104,-112,104" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Node-27-2" endpinid="Node-26-0" pointList="-244,184,-244,148" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-28-1" endpinid="Switch-24-pinP0" pointList="-244,220,76,220,76,104" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Battery-25-lPin" endpinid="Node-28-0" pointList="-244,260,-244,220" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Node-28-2" endpinid="Node-27-0" pointList="-244,220,-244,184" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Node-29-1" endpinid="RelaySPST-15-inductor-lPin" pointList="-80,-36,-68,-36" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Node-29-2" endpinid="RelaySPST-9-inductor-lPin" pointList="-80,-36,-80,-112,-68,-112" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-30-1" endpinid="RelaySPST-13-inductor-lPin" pointList="-24,-36,-8,-36" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Node-30-2" endpinid="RelaySPST-10-inductor-lPin" pointList="-24,-36,-24,-112,-8,-112" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Node-31-1" endpinid="RelaySPST-14-inductor-lPin" pointList="40,-36,56,-36" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Node-31-2" endpinid="RelaySPST-11-inductor-lPin" pointList="40,-36,40,-112,56,-112" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="Node-32-1" endpinid="RelaySPST-16-inductor-lPin" pointList="108,-36,120,-36" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="Node-32-2" endpinid="RelaySPST-12-inductor-lPin" pointList="108,-36,108,-112,120,-112" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Node-33-1" endpinid="RelaySPST-20-inductor-lPin" pointList="108,40,120,40" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="Switch-24-switch0pinN" endpinid="Node-33-0" pointList="108,104,108,40" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Node-33-2" endpinid="Node-32-0" pointList="108,40,108,-36" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-34-1" endpinid="RelaySPST-17-inductor-lPin" pointList="40,40,56,40" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="Switch-23-switch0pinN" endpinid="Node-34-0" pointList="40,104,40,40" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Node-34-2" endpinid="Node-31-0" pointList="40,40,40,-36" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Node-35-1" endpinid="RelaySPST-19-inductor-lPin" pointList="-24,40,-8,40" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Switch-22-switch0pinN" endpinid="Node-35-0" pointList="-24,104,-24,40" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Node-35-2" endpinid="Node-30-0" pointList="-24,40,-24,-36" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Node-36-1" endpinid="RelaySPST-18-inductor-lPin" pointList="-80,40,-68,40" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Switch-21-switch0pinN" endpinid="Node-36-0" pointList="-80,104,-80,40" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Node-36-2" endpinid="Node-29-0" pointList="-80,40,-80,-36" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="RelaySPST-9-inductor-rPin" endpinid="Ground-40-Gnd" pointList="-36,-112,-36,-100" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="RelaySPST-10-inductor-rPin" endpinid="Ground-39-Gnd" pointList="24,-112,24,-100" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="RelaySPST-11-inductor-rPin" endpinid="Ground-37-Gnd" pointList="88,-112,88,-100" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="RelaySPST-12-inductor-rPin" endpinid="Ground-38-Gnd" pointList="152,-112,172,-112,172,-104" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="RelaySPST-20-inductor-rPin" endpinid="Ground-48-Gnd" pointList="152,40,168,40,168,52" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="RelaySPST-17-inductor-rPin" endpinid="Ground-49-Gnd" pointList="88,40,88,56" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="RelaySPST-19-inductor-rPin" endpinid="Ground-46-Gnd" pointList="24,40,24,56" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="RelaySPST-18-inductor-rPin" endpinid="Ground-47-Gnd" pointList="-36,40,-36,56" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="RelaySPST-16-inductor-rPin" endpinid="Ground-50-Gnd" pointList="152,-36,172,-36,172,-32" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="RelaySPST-14-inductor-rPin" endpinid="Ground-43-Gnd" pointList="88,-36,88,-24" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="RelaySPST-13-inductor-rPin" endpinid="Ground-42-Gnd" pointList="24,-36,24,-24" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="RelaySPST-15-inductor-rPin" endpinid="Ground-44-Gnd" pointList="-36,-36,-36,-24" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Battery-25-rPin" endpinid="Ground-51-Gnd" pointList="-244,292,-244,316" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Node-27-1" endpinid="Switch-23-pinP0" pointList="-244,184,8,184,8,104" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Battery-54-rPin" endpinid="Ground-55-Gnd" pointList="-372,-40,-372,8" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="RelaySPST-9-pinP2" endpinid="Node-56-0" pointList="-68,-128,-372,-128,-372,-88" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Node-56-2" endpinid="Battery-54-lPin" pointList="-372,-88,-372,-72" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="RelaySPST-15-pinP2" endpinid="Node-57-1" pointList="-68,-52,-212,-52" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="RelaySPST-18-pinP2" endpinid="Node-57-0" pointList="-68,24,-212,24,-212,-52" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Node-57-2" endpinid="Node-56-1" pointList="-212,-52,-212,-88,-372,-88" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="RelaySPST-9-switch0pinN" endpinid="RelaySPST-10-pinP2" pointList="-36,-128,-8,-128" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="RelaySPST-10-switch0pinN" endpinid="RelaySPST-11-pinP2" pointList="24,-128,56,-128" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="RelaySPST-11-switch1pinN" endpinid="RelaySPST-12-pinP2" pointList="88,-136,104,-136,104,-128,120,-128" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="RelaySPST-15-switch0pinN" endpinid="RelaySPST-13-pinP2" pointList="-36,-52,-8,-52" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="RelaySPST-13-switch0pinN" endpinid="RelaySPST-14-pinP2" pointList="24,-52,56,-52" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="RelaySPST-14-switch1pinN" endpinid="RelaySPST-16-pinP2" pointList="88,-60,100,-60,100,-52,120,-52" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="RelaySPST-18-switch0pinN" endpinid="RelaySPST-19-pinP2" pointList="-36,24,-8,24" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="RelaySPST-19-switch0pinN" endpinid="RelaySPST-17-pinP2" pointList="24,24,56,24" />
+
+<item itemtype="Connector" uid="Connector-85" startpinid="RelaySPST-17-switch0pinN" endpinid="RelaySPST-20-pinP2" pointList="88,24,120,24" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="DcMotor-52-rPin" endpinid="Ground-58-Gnd" pointList="324,8,324,60" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="RelaySPST-12-switch1pinN" endpinid="Node-60-0" pointList="152,-136,260,-136" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-60-2" endpinid="DcMotor-52-lPin" pointList="260,-136,324,-136,324,-72" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="RelaySPST-16-switch0pinN" endpinid="Node-62-1" pointList="152,-52,260,-52" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="RelaySPST-20-switch0pinN" endpinid="Node-62-0" pointList="152,24,260,24,260,-52" />
+
+<item itemtype="Connector" uid="Connector-98" startpinid="Node-62-2" endpinid="Node-60-1" pointList="260,-52,260,-136" />
+
+</circuit>
