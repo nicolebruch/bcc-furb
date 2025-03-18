@@ -1,4 +1,4 @@
-<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+<circuit version="1.1.0-SR1" rev="" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-216" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
@@ -50,35 +50,35 @@
 
 <item itemtype="TextComponent" CircId="TextComponent-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-480,104" rotation="0" hflip="1" vflip="1" label="TextComponent-31" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="PORTA &#x22;OU&#x22; E &#x22;BUFFER&#x22; , ONDE O BUFFER INVERTE A MINHA CONDIÇÃO.&#xa;&#xa;EXEMPLO: FALSO VIRA VERDADEIRO" />
 
-<item itemtype="Resistor" CircId="Resistor-32" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-236,624" rotation="0" hflip="1" vflip="1" label="Resistor-32" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Resistor" CircId="Resistor-32" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-220,500" rotation="0" hflip="1" vflip="1" label="Resistor-32" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
-<item itemtype="Resistor" CircId="Resistor-33" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-240,748" rotation="0" hflip="1" vflip="1" label="Resistor-33" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Resistor" CircId="Resistor-33" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-224,624" rotation="0" hflip="1" vflip="1" label="Resistor-33" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
-<item itemtype="Led" CircId="Led-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,748" rotation="0" hflip="1" vflip="1" label="Led-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+<item itemtype="Led" CircId="Led-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,624" rotation="0" hflip="1" vflip="1" label="Led-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
-<item itemtype="Or Gate" CircId="Or Gate-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-376,624" rotation="0" hflip="1" vflip="1" label="Or Gate-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Or Gate" CircId="Or Gate-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,500" rotation="0" hflip="1" vflip="1" label="Or Gate-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Buffer" CircId="Buffer-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-384,748" rotation="0" hflip="1" vflip="1" label="Buffer-36" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="Buffer" CircId="Buffer-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,624" rotation="0" hflip="1" vflip="1" label="Buffer-36" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Ground" CircId="Ground-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,656" rotation="360" hflip="1" vflip="1" label="Ground-37" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,532" rotation="360" hflip="1" vflip="1" label="Ground-37" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,596" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-38" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-444,472" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-38" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="Ground" CircId="Ground-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,780" rotation="360" hflip="1" vflip="1" label="Ground-39" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,656" rotation="360" hflip="1" vflip="1" label="Ground-39" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,660" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-40" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-444,536" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-40" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Led" CircId="Led-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,624" rotation="0" hflip="1" vflip="1" label="Led-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+<item itemtype="Led" CircId="Led-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,500" rotation="0" hflip="1" vflip="1" label="Led-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
-<item itemtype="TextComponent" CircId="TextComponent-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,540" rotation="0" hflip="1" vflip="1" label="TextComponent-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="TODAS AS PORTAS JUNTAS" />
+<item itemtype="TextComponent" CircId="TextComponent-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,416" rotation="0" hflip="1" vflip="1" label="TextComponent-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="TODAS AS PORTAS JUNTAS" />
 
-<item itemtype="And Gate" CircId="And Gate-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,692" rotation="0" hflip="1" vflip="1" label="And Gate-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+<item itemtype="And Gate" CircId="And Gate-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,568" rotation="0" hflip="1" vflip="1" label="And Gate-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="Resistor" CircId="Resistor-47" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-236,692" rotation="0" hflip="1" vflip="1" label="Resistor-47" idLabPos="-16,-24" labelrot="0" valLabPos="-30.2991,43.9236" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Resistor" CircId="Resistor-47" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-220,568" rotation="0" hflip="1" vflip="1" label="Resistor-47" idLabPos="-16,-24" labelrot="0" valLabPos="-30.2991,43.9236" valLabRot="0" Resistance="100 Ω" />
 
-<item itemtype="Led" CircId="Led-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,692" rotation="0" hflip="1" vflip="1" label="Led-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+<item itemtype="Led" CircId="Led-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,568" rotation="0" hflip="1" vflip="1" label="Led-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
-<item itemtype="Ground" CircId="Ground-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,724" rotation="360" hflip="1" vflip="1" label="Ground-50" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,600" rotation="360" hflip="1" vflip="1" label="Ground-50" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Resistor" CircId="Resistor-53" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="736,20" rotation="90" hflip="1" vflip="1" label="Resistor-53" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
@@ -96,7 +96,7 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-66" mainComp="false" Show_id="false" Show_Val="false" Pos="408,-200" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-66" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
 
-<item itemtype="TextComponent" CircId="TextComponent-67" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-280" rotation="0" hflip="1" vflip="1" label="TextComponent-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="A     B     C     D" />
+<item itemtype="TextComponent" CircId="TextComponent-67" mainComp="false" Show_id="false" Show_Val="false" Pos="312,-280" rotation="0" hflip="1" vflip="1" label="TextComponent-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="A     B     C     D" />
 
 <item itemtype="Buffer" CircId="Buffer-68" mainComp="false" Show_id="false" Show_Val="false" Pos="440,-84" rotation="0" hflip="1" vflip="1" label="Buffer-68" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
@@ -124,15 +124,15 @@
 
 <item itemtype="Or Gate" CircId="Or Gate-91" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-76" rotation="0" hflip="1" vflip="1" label="Or Gate-91" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
 
-<item itemtype="TextComponent" CircId="TextComponent-92" mainComp="false" Show_id="false" Show_Val="false" Pos="584,-220" rotation="0" hflip="1" vflip="1" label="TextComponent-92" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CIRCUITO UTILIZANDO VÁRIAS&#xa;LÓGICAS JUNTAS" />
+<item itemtype="TextComponent" CircId="TextComponent-92" mainComp="false" Show_id="false" Show_Val="false" Pos="584,-224" rotation="0" hflip="1" vflip="1" label="TextComponent-92" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CIRCUITO UTILIZANDO VÁRIAS&#xa;LÓGICAS JUNTAS" />
 
 <item itemtype="Subcircuit" CircId="74HC08-93" mainComp="false" Show_id="true" Show_Val="false" Pos="476,152" rotation="0" hflip="1" vflip="1" label="74HC08-93" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="false" />
 
-<item itemtype="TextComponent" CircId="TextComponent-94" mainComp="false" Show_id="false" Show_Val="false" Pos="548,120" rotation="0" hflip="1" vflip="1" label="TextComponent-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CIRCUITO INTEGRADO COM O 74HC08-93&#xa;FUNCIONAMENTO: ENTRADA DE UM PINO MAIS&#xa;A ENTRADA DE OUTRO PINO &#x3D SAÍDA DE OUTRO PINO" />
+<item itemtype="TextComponent" CircId="TextComponent-94" mainComp="false" Show_id="false" Show_Val="false" Pos="536,128" rotation="0" hflip="1" vflip="1" label="TextComponent-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="CIRCUITO INTEGRADO COM O 74HC08-93&#xa;FUNCIONAMENTO: ENTRADA DE UM PINO MAIS&#xa;A ENTRADA DE OUTRO PINO &#x3D SAÍDA DE OUTRO PINO" />
 
 <item itemtype="Subcircuit" CircId="74HC08-103" mainComp="false" Show_id="true" Show_Val="false" Pos="480,296" rotation="0" hflip="1" vflip="1" label="74HC08-103" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="false" />
 
-<item itemtype="TextComponent" CircId="TextComponent-106" mainComp="false" Show_id="false" Show_Val="false" Pos="600,196" rotation="0" hflip="1" vflip="1" label="TextComponent-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="PINO GND E Vcc SOBRA" />
+<item itemtype="TextComponent" CircId="TextComponent-106" mainComp="false" Show_id="false" Show_Val="false" Pos="608,164" rotation="0" hflip="1" vflip="1" label="TextComponent-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="PINO GND E Vcc SOBRA" />
 
 <item itemtype="Subcircuit" CircId="74HC04-107" mainComp="false" Show_id="true" Show_Val="false" Pos="384,344" rotation="0" hflip="1" vflip="1" label="74HC04-107" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="false" />
 
@@ -148,7 +148,7 @@
 
 <item itemtype="Subcircuit" CircId="74HC32-120" mainComp="false" Show_id="true" Show_Val="false" Pos="608,268" rotation="0" hflip="1" vflip="1" label="74HC32-120" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
 
-<item itemtype="TextComponent" CircId="TextComponent-121" mainComp="false" Show_id="false" Show_Val="false" Pos="676,248" rotation="0" hflip="1" vflip="1" label="TextComponent-121" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="COM O 74HC32 PRECISA USAR &#xa;DE FORMA LÓGICA E NÃO DESABILITAR" />
+<item itemtype="TextComponent" CircId="TextComponent-121" mainComp="false" Show_id="false" Show_Val="false" Pos="668,268" rotation="0" hflip="1" vflip="1" label="TextComponent-121" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="6 _px" Fixed_Width="false" Text="COM O 74HC32 PRECISA USAR &#xa;DE FORMA LÓGICA E NÃO DESABILITAR" />
 
 <item itemtype="Led" CircId="Led-125" mainComp="false" Show_id="false" Show_Val="false" Pos="696,328" rotation="90" hflip="1" vflip="1" label="Led-125" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
@@ -156,13 +156,335 @@
 
 <item itemtype="Resistor" CircId="Resistor-127" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="696,388" rotation="90" hflip="1" vflip="1" label="Resistor-127" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
+<item itemtype="TextComponent" CircId="TextComponent-128" mainComp="false" Show_id="false" Show_Val="false" Pos="420,-104" rotation="0" hflip="1" vflip="1" label="TextComponent-128" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="3 _px" Fixed_Width="false" Text="BUFFER &#x3D INVERSORES" />
+
+<item itemtype="TextComponent" CircId="TextComponent-129" mainComp="false" Show_id="false" Show_Val="false" Pos="372,412" rotation="0" hflip="1" vflip="1" label="TextComponent-129" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="6 _px" Fixed_Width="false" Text="74HC04 &#x3D&#x3D INVERSORA&#xa;Portas NOT" />
+
+<item itemtype="TextComponent" CircId="TextComponent-132" mainComp="false" Show_id="false" Show_Val="false" Pos="476,360" rotation="0" hflip="1" vflip="1" label="TextComponent-132" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="6 _px" Fixed_Width="false" Text="74HC08 &#xa;Portas AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-133" mainComp="false" Show_id="false" Show_Val="false" Pos="672,240" rotation="0" hflip="1" vflip="1" label="TextComponent-133" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#c64600" Font_Size="5 _px" Fixed_Width="false" Text="74HC32&#xa;Portas OR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-135" mainComp="false" Show_id="false" Show_Val="false" Pos="472,516" rotation="0" hflip="1" vflip="1" label="TextComponent-135" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="6 _px" Fixed_Width="false" Text="74HC08 &#xa;Portas AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-140" mainComp="false" Show_id="false" Show_Val="false" Pos="488,-88" rotation="0" hflip="1" vflip="1" label="TextComponent-140" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-142" mainComp="false" Show_id="false" Show_Val="false" Pos="496,-180" rotation="0" hflip="1" vflip="1" label="TextComponent-142" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-143" mainComp="false" Show_id="false" Show_Val="false" Pos="544,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-143" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-144" mainComp="false" Show_id="false" Show_Val="false" Pos="540,-40" rotation="0" hflip="1" vflip="1" label="TextComponent-144" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-145" mainComp="false" Show_id="false" Show_Val="false" Pos="476,-56" rotation="0" hflip="1" vflip="1" label="TextComponent-145" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-146" mainComp="false" Show_id="false" Show_Val="false" Pos="476,-20" rotation="0" hflip="1" vflip="1" label="TextComponent-146" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-147" mainComp="false" Show_id="false" Show_Val="false" Pos="416,12" rotation="0" hflip="1" vflip="1" label="TextComponent-147" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="3 _px" Fixed_Width="false" Text="BUFFER &#x3D INVERSORES" />
+
+<item itemtype="TextComponent" CircId="TextComponent-148" mainComp="false" Show_id="false" Show_Val="false" Pos="480,40" rotation="0" hflip="1" vflip="1" label="TextComponent-148" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-149" mainComp="false" Show_id="false" Show_Val="false" Pos="536,64" rotation="0" hflip="1" vflip="1" label="TextComponent-149" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-150" mainComp="false" Show_id="false" Show_Val="false" Pos="480,92" rotation="0" hflip="1" vflip="1" label="TextComponent-150" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="3 _px" Fixed_Width="false" Text="Porta AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-152" mainComp="false" Show_id="false" Show_Val="false" Pos="616,-104" rotation="0" hflip="1" vflip="1" label="TextComponent-152" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#c64600" Font_Size="3 _px" Fixed_Width="false" Text="Portas OR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-153" mainComp="false" Show_id="false" Show_Val="false" Pos="684,-104" rotation="0" hflip="1" vflip="1" label="TextComponent-153" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#c64600" Font_Size="3 _px" Fixed_Width="false" Text="Portas OR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-154" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-252" rotation="0" hflip="1" vflip="1" label="TextComponent-154" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="4 Entradas do circuito" />
+
+<item itemtype="TextComponent" CircId="TextComponent-155" mainComp="false" Show_id="false" Show_Val="false" Pos="752,-36" rotation="0" hflip="1" vflip="1" label="TextComponent-155" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="LED é a saida do circuito" />
+
+<item itemtype="TextComponent" CircId="TextComponent-156" mainComp="false" Show_id="false" Show_Val="false" Pos="472,220" rotation="0" hflip="1" vflip="1" label="TextComponent-156" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="6 _px" Fixed_Width="false" Text="74HC08 &#xa;Portas AND" />
+
+<item itemtype="TextComponent" CircId="TextComponent-159" mainComp="false" Show_id="false" Show_Val="false" Pos="524,168" rotation="0" hflip="1" vflip="1" label="TextComponent-159" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="4 _px" Fixed_Width="false" Text="A saída é 1 apenas se TODAS&#xa;as entradas forem &#x22;1&#x22;" />
+
+<item itemtype="TextComponent" CircId="TextComponent-160" mainComp="false" Show_id="false" Show_Val="false" Pos="380,528" rotation="0" hflip="1" vflip="1" label="TextComponent-160" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="4 _px" Fixed_Width="false" Text="A saída é 1 apenas se TODAS&#xa;as entradas forem &#x22;1&#x22;" />
+
+<item itemtype="TextComponent" CircId="TextComponent-161" mainComp="false" Show_id="false" Show_Val="false" Pos="464,256" rotation="0" hflip="1" vflip="1" label="TextComponent-161" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#613583" Font_Size="4 _px" Fixed_Width="false" Text="A saída é 1 apenas se TODAS&#xa;as entradas forem &#x22;1&#x22;" />
+
+<item itemtype="TextComponent" CircId="TextComponent-162" mainComp="false" Show_id="false" Show_Val="false" Pos="596,228" rotation="0" hflip="1" vflip="1" label="TextComponent-162" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#c64600" Font_Size="4 _px" Fixed_Width="false" Text="Saída é &#x22;1&#x22; se pelo menos &#xa;UMA entrada for &#x22;1&#x22;" />
+
+<item itemtype="TextComponent" CircId="TextComponent-163" mainComp="false" Show_id="false" Show_Val="false" Pos="464,404" rotation="0" hflip="1" vflip="1" label="TextComponent-163" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="4 _px" Fixed_Width="false" Text="Inverte a entrada &#xa;(&#x22;0&#x22; vira &#x22;1&#x22; e &#x22;1&#x22; vira &#x22;0&#x22;)" />
+
+<item itemtype="TextComponent" CircId="TextComponent-168" mainComp="false" Show_id="false" Show_Val="false" Pos="480,-176" rotation="0" hflip="1" vflip="1" label="TextComponent-168" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-169" mainComp="false" Show_id="false" Show_Val="false" Pos="480,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-169" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-170" mainComp="false" Show_id="false" Show_Val="false" Pos="548,-140" rotation="0" hflip="1" vflip="1" label="TextComponent-170" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-171" mainComp="false" Show_id="false" Show_Val="false" Pos="456,-124" rotation="0" hflip="1" vflip="1" label="TextComponent-171" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-173" mainComp="false" Show_id="false" Show_Val="false" Pos="456,-84" rotation="0" hflip="1" vflip="1" label="TextComponent-173" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-175" mainComp="false" Show_id="false" Show_Val="false" Pos="492,-108" rotation="0" hflip="1" vflip="1" label="TextComponent-175" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-177" mainComp="false" Show_id="false" Show_Val="false" Pos="412,-124" rotation="0" hflip="1" vflip="1" label="TextComponent-177" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-178" mainComp="false" Show_id="false" Show_Val="false" Pos="412,-84" rotation="0" hflip="1" vflip="1" label="TextComponent-178" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-179" mainComp="false" Show_id="false" Show_Val="false" Pos="460,-48" rotation="0" hflip="1" vflip="1" label="TextComponent-179" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-180" mainComp="false" Show_id="false" Show_Val="false" Pos="460,-28" rotation="0" hflip="1" vflip="1" label="TextComponent-180" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-181" mainComp="false" Show_id="false" Show_Val="false" Pos="460,-12" rotation="0" hflip="1" vflip="1" label="TextComponent-181" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-182" mainComp="false" Show_id="false" Show_Val="false" Pos="460,28" rotation="0" hflip="1" vflip="1" label="TextComponent-182" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-183" mainComp="false" Show_id="false" Show_Val="false" Pos="480,-4" rotation="0" hflip="1" vflip="1" label="TextComponent-183" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-185" mainComp="false" Show_id="false" Show_Val="false" Pos="544,-24" rotation="0" hflip="1" vflip="1" label="TextComponent-185" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-186" mainComp="false" Show_id="false" Show_Val="false" Pos="620,-88" rotation="0" hflip="1" vflip="1" label="TextComponent-186" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-187" mainComp="false" Show_id="false" Show_Val="false" Pos="692,-84" rotation="0" hflip="1" vflip="1" label="TextComponent-187" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-188" mainComp="false" Show_id="false" Show_Val="false" Pos="732,-36" rotation="0" hflip="1" vflip="1" label="TextComponent-188" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#ffffff" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-189" mainComp="false" Show_id="false" Show_Val="false" Pos="540,80" rotation="0" hflip="1" vflip="1" label="TextComponent-189" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-184" mainComp="false" Show_id="false" Show_Val="false" Pos="480,-40" rotation="0" hflip="1" vflip="1" label="TextComponent-184" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-190" mainComp="false" Show_id="false" Show_Val="false" Pos="488,56" rotation="0" hflip="1" vflip="1" label="TextComponent-190" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-191" mainComp="false" Show_id="false" Show_Val="false" Pos="484,108" rotation="0" hflip="1" vflip="1" label="TextComponent-191" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-192" mainComp="false" Show_id="false" Show_Val="false" Pos="464,120" rotation="0" hflip="1" vflip="1" label="TextComponent-192" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-193" mainComp="false" Show_id="false" Show_Val="false" Pos="464,100" rotation="0" hflip="1" vflip="1" label="TextComponent-193" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-194" mainComp="false" Show_id="false" Show_Val="false" Pos="464,68" rotation="0" hflip="1" vflip="1" label="TextComponent-194" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-195" mainComp="false" Show_id="false" Show_Val="false" Pos="464,48" rotation="0" hflip="1" vflip="1" label="TextComponent-195" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-196" mainComp="false" Show_id="false" Show_Val="false" Pos="452,-244" rotation="0" hflip="1" vflip="1" label="TextComponent-196" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="+ &#x3D OU &#xa;* &#x3D E&#xa;-  &#x3D NÃO" />
+
+<item itemtype="TextComponent" CircId="TextComponent-167" mainComp="false" Show_id="false" Show_Val="false" Pos="404,-208" rotation="0" hflip="1" vflip="1" label="TextComponent-167" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="5 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-166" mainComp="false" Show_id="false" Show_Val="false" Pos="364,-208" rotation="0" hflip="1" vflip="1" label="TextComponent-166" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="5 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-165" mainComp="false" Show_id="false" Show_Val="false" Pos="328,-208" rotation="0" hflip="1" vflip="1" label="TextComponent-165" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="5 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-164" mainComp="false" Show_id="false" Show_Val="false" Pos="296,-208" rotation="0" hflip="1" vflip="1" label="TextComponent-164" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="5 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-202" mainComp="false" Show_id="false" Show_Val="false" Pos="328,-168" rotation="0" hflip="1" vflip="1" label="TextComponent-202" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-203" mainComp="false" Show_id="false" Show_Val="false" Pos="296,-168" rotation="0" hflip="1" vflip="1" label="TextComponent-203" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-204" mainComp="false" Show_id="false" Show_Val="false" Pos="404,-168" rotation="0" hflip="1" vflip="1" label="TextComponent-204" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-205" mainComp="false" Show_id="false" Show_Val="false" Pos="364,-168" rotation="0" hflip="1" vflip="1" label="TextComponent-205" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-216" mainComp="false" Show_id="false" Show_Val="false" Pos="360,-120" rotation="0" hflip="1" vflip="1" label="TextComponent-216" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-217" mainComp="false" Show_id="false" Show_Val="false" Pos="324,-120" rotation="0" hflip="1" vflip="1" label="TextComponent-217" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-218" mainComp="false" Show_id="false" Show_Val="false" Pos="400,-120" rotation="0" hflip="1" vflip="1" label="TextComponent-218" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-219" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-120" rotation="0" hflip="1" vflip="1" label="TextComponent-219" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-220" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-52" rotation="0" hflip="1" vflip="1" label="TextComponent-220" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-221" mainComp="false" Show_id="false" Show_Val="false" Pos="324,-52" rotation="0" hflip="1" vflip="1" label="TextComponent-221" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-222" mainComp="false" Show_id="false" Show_Val="false" Pos="400,-52" rotation="0" hflip="1" vflip="1" label="TextComponent-222" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-223" mainComp="false" Show_id="false" Show_Val="false" Pos="360,-52" rotation="0" hflip="1" vflip="1" label="TextComponent-223" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-224" mainComp="false" Show_id="false" Show_Val="false" Pos="360,-32" rotation="0" hflip="1" vflip="1" label="TextComponent-224" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-225" mainComp="false" Show_id="false" Show_Val="false" Pos="400,-32" rotation="0" hflip="1" vflip="1" label="TextComponent-225" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-226" mainComp="false" Show_id="false" Show_Val="false" Pos="324,-32" rotation="0" hflip="1" vflip="1" label="TextComponent-226" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-227" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-32" rotation="0" hflip="1" vflip="1" label="TextComponent-227" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-230" mainComp="false" Show_id="false" Show_Val="false" Pos="360,-8" rotation="0" hflip="1" vflip="1" label="TextComponent-230" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-231" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-8" rotation="0" hflip="1" vflip="1" label="TextComponent-231" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-232" mainComp="false" Show_id="false" Show_Val="false" Pos="400,-8" rotation="0" hflip="1" vflip="1" label="TextComponent-232" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-233" mainComp="false" Show_id="false" Show_Val="false" Pos="324,-8" rotation="0" hflip="1" vflip="1" label="TextComponent-233" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-234" mainComp="false" Show_id="false" Show_Val="false" Pos="292,20" rotation="0" hflip="1" vflip="1" label="TextComponent-234" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-235" mainComp="false" Show_id="false" Show_Val="false" Pos="324,20" rotation="0" hflip="1" vflip="1" label="TextComponent-235" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-236" mainComp="false" Show_id="false" Show_Val="false" Pos="360,20" rotation="0" hflip="1" vflip="1" label="TextComponent-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-237" mainComp="false" Show_id="false" Show_Val="false" Pos="400,20" rotation="0" hflip="1" vflip="1" label="TextComponent-237" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-238" mainComp="false" Show_id="false" Show_Val="false" Pos="292,48" rotation="0" hflip="1" vflip="1" label="TextComponent-238" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-239" mainComp="false" Show_id="false" Show_Val="false" Pos="400,48" rotation="0" hflip="1" vflip="1" label="TextComponent-239" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-240" mainComp="false" Show_id="false" Show_Val="false" Pos="324,48" rotation="0" hflip="1" vflip="1" label="TextComponent-240" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-241" mainComp="false" Show_id="false" Show_Val="false" Pos="360,48" rotation="0" hflip="1" vflip="1" label="TextComponent-241" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-242" mainComp="false" Show_id="false" Show_Val="false" Pos="324,64" rotation="0" hflip="1" vflip="1" label="TextComponent-242" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-243" mainComp="false" Show_id="false" Show_Val="false" Pos="400,64" rotation="0" hflip="1" vflip="1" label="TextComponent-243" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-244" mainComp="false" Show_id="false" Show_Val="false" Pos="360,64" rotation="0" hflip="1" vflip="1" label="TextComponent-244" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-245" mainComp="false" Show_id="false" Show_Val="false" Pos="292,64" rotation="0" hflip="1" vflip="1" label="TextComponent-245" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-246" mainComp="false" Show_id="false" Show_Val="false" Pos="292,100" rotation="0" hflip="1" vflip="1" label="TextComponent-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-247" mainComp="false" Show_id="false" Show_Val="false" Pos="324,100" rotation="0" hflip="1" vflip="1" label="TextComponent-247" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-248" mainComp="false" Show_id="false" Show_Val="false" Pos="400,100" rotation="0" hflip="1" vflip="1" label="TextComponent-248" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-249" mainComp="false" Show_id="false" Show_Val="false" Pos="360,100" rotation="0" hflip="1" vflip="1" label="TextComponent-249" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-250" mainComp="false" Show_id="false" Show_Val="false" Pos="400,116" rotation="0" hflip="1" vflip="1" label="TextComponent-250" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-251" mainComp="false" Show_id="false" Show_Val="false" Pos="292,116" rotation="0" hflip="1" vflip="1" label="TextComponent-251" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-252" mainComp="false" Show_id="false" Show_Val="false" Pos="324,116" rotation="0" hflip="1" vflip="1" label="TextComponent-252" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-253" mainComp="false" Show_id="false" Show_Val="false" Pos="360,116" rotation="0" hflip="1" vflip="1" label="TextComponent-253" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-254" mainComp="false" Show_id="false" Show_Val="false" Pos="400,148" rotation="0" hflip="1" vflip="1" label="TextComponent-254" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-255" mainComp="false" Show_id="false" Show_Val="false" Pos="324,148" rotation="0" hflip="1" vflip="1" label="TextComponent-255" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-256" mainComp="false" Show_id="false" Show_Val="false" Pos="360,148" rotation="0" hflip="1" vflip="1" label="TextComponent-256" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-257" mainComp="false" Show_id="false" Show_Val="false" Pos="292,148" rotation="0" hflip="1" vflip="1" label="TextComponent-257" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-258" mainComp="false" Show_id="false" Show_Val="false" Pos="360,164" rotation="0" hflip="1" vflip="1" label="TextComponent-258" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-259" mainComp="false" Show_id="false" Show_Val="false" Pos="292,164" rotation="0" hflip="1" vflip="1" label="TextComponent-259" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-260" mainComp="false" Show_id="false" Show_Val="false" Pos="324,164" rotation="0" hflip="1" vflip="1" label="TextComponent-260" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-261" mainComp="false" Show_id="false" Show_Val="false" Pos="400,164" rotation="0" hflip="1" vflip="1" label="TextComponent-261" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-262" mainComp="false" Show_id="false" Show_Val="false" Pos="292,180" rotation="0" hflip="1" vflip="1" label="TextComponent-262" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-263" mainComp="false" Show_id="false" Show_Val="false" Pos="324,180" rotation="0" hflip="1" vflip="1" label="TextComponent-263" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-264" mainComp="false" Show_id="false" Show_Val="false" Pos="400,180" rotation="0" hflip="1" vflip="1" label="TextComponent-264" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-265" mainComp="false" Show_id="false" Show_Val="false" Pos="360,180" rotation="0" hflip="1" vflip="1" label="TextComponent-265" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-266" mainComp="false" Show_id="false" Show_Val="false" Pos="360,196" rotation="0" hflip="1" vflip="1" label="TextComponent-266" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-267" mainComp="false" Show_id="false" Show_Val="false" Pos="324,196" rotation="0" hflip="1" vflip="1" label="TextComponent-267" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-268" mainComp="false" Show_id="false" Show_Val="false" Pos="400,196" rotation="0" hflip="1" vflip="1" label="TextComponent-268" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-269" mainComp="false" Show_id="false" Show_Val="false" Pos="292,196" rotation="0" hflip="1" vflip="1" label="TextComponent-269" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="7 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-278" mainComp="false" Show_id="false" Show_Val="false" Pos="400,296" rotation="0" hflip="1" vflip="1" label="TextComponent-278" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-279" mainComp="false" Show_id="false" Show_Val="false" Pos="360,296" rotation="0" hflip="1" vflip="1" label="TextComponent-279" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-280" mainComp="false" Show_id="false" Show_Val="false" Pos="292,296" rotation="0" hflip="1" vflip="1" label="TextComponent-280" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-281" mainComp="false" Show_id="false" Show_Val="false" Pos="324,296" rotation="0" hflip="1" vflip="1" label="TextComponent-281" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-287" mainComp="false" Show_id="false" Show_Val="false" Pos="712,320" rotation="0" hflip="1" vflip="1" label="TextComponent-287" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="LED é a saida do circuito" />
+
+<item itemtype="TextComponent" CircId="TextComponent-288" mainComp="false" Show_id="false" Show_Val="false" Pos="692,324" rotation="0" hflip="1" vflip="1" label="TextComponent-288" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#ffffff" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-290" mainComp="false" Show_id="false" Show_Val="false" Pos="456,148" rotation="0" hflip="1" vflip="1" label="TextComponent-290" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-291" mainComp="false" Show_id="false" Show_Val="false" Pos="456,160" rotation="0" hflip="1" vflip="1" label="TextComponent-291" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-293" mainComp="false" Show_id="false" Show_Val="false" Pos="456,176" rotation="0" hflip="1" vflip="1" label="TextComponent-293" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-294" mainComp="false" Show_id="false" Show_Val="false" Pos="456,184" rotation="0" hflip="1" vflip="1" label="TextComponent-294" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-295" mainComp="false" Show_id="false" Show_Val="false" Pos="444,168" rotation="0" hflip="1" vflip="1" label="TextComponent-295" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-300" mainComp="false" Show_id="false" Show_Val="false" Pos="448,196" rotation="0" hflip="1" vflip="1" label="TextComponent-300" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-303" mainComp="false" Show_id="false" Show_Val="false" Pos="516,192" rotation="0" hflip="1" vflip="1" label="TextComponent-303" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-305" mainComp="false" Show_id="false" Show_Val="false" Pos="516,180" rotation="0" hflip="1" vflip="1" label="TextComponent-305" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-306" mainComp="false" Show_id="false" Show_Val="false" Pos="516,204" rotation="0" hflip="1" vflip="1" label="TextComponent-306" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-307" mainComp="false" Show_id="false" Show_Val="false" Pos="460,292" rotation="0" hflip="1" vflip="1" label="TextComponent-307" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-308" mainComp="false" Show_id="false" Show_Val="false" Pos="460,304" rotation="0" hflip="1" vflip="1" label="TextComponent-308" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-309" mainComp="false" Show_id="false" Show_Val="false" Pos="448,312" rotation="0" hflip="1" vflip="1" label="TextComponent-309" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-310" mainComp="false" Show_id="false" Show_Val="false" Pos="368,340" rotation="0" hflip="1" vflip="1" label="TextComponent-310" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-311" mainComp="false" Show_id="false" Show_Val="false" Pos="460,328" rotation="0" hflip="1" vflip="1" label="TextComponent-311" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-312" mainComp="false" Show_id="false" Show_Val="false" Pos="388,332" rotation="0" hflip="1" vflip="1" label="TextComponent-312" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="4 _px" Fixed_Width="false" Text="INVERTE" />
+
+<item itemtype="TextComponent" CircId="TextComponent-314" mainComp="false" Show_id="false" Show_Val="false" Pos="360,364" rotation="0" hflip="1" vflip="1" label="TextComponent-314" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-316" mainComp="false" Show_id="false" Show_Val="false" Pos="368,352" rotation="0" hflip="1" vflip="1" label="TextComponent-316" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-317" mainComp="false" Show_id="false" Show_Val="false" Pos="460,320" rotation="0" hflip="1" vflip="1" label="TextComponent-317" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-320" mainComp="false" Show_id="false" Show_Val="false" Pos="460,444" rotation="0" hflip="1" vflip="1" label="TextComponent-320" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-322" mainComp="false" Show_id="false" Show_Val="false" Pos="460,456" rotation="0" hflip="1" vflip="1" label="TextComponent-322" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-323" mainComp="false" Show_id="false" Show_Val="false" Pos="448,464" rotation="0" hflip="1" vflip="1" label="TextComponent-323" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-325" mainComp="false" Show_id="false" Show_Val="false" Pos="588,296" rotation="0" hflip="1" vflip="1" label="TextComponent-325" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-328" mainComp="false" Show_id="false" Show_Val="false" Pos="460,340" rotation="0" hflip="1" vflip="1" label="TextComponent-328" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-330" mainComp="false" Show_id="false" Show_Val="false" Pos="520,328" rotation="0" hflip="1" vflip="1" label="TextComponent-330" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-332" mainComp="false" Show_id="false" Show_Val="false" Pos="520,336" rotation="0" hflip="1" vflip="1" label="TextComponent-332" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-335" mainComp="false" Show_id="false" Show_Val="false" Pos="524,348" rotation="0" hflip="1" vflip="1" label="TextComponent-335" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-337" mainComp="false" Show_id="false" Show_Val="false" Pos="588,276" rotation="0" hflip="1" vflip="1" label="TextComponent-337" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-338" mainComp="false" Show_id="false" Show_Val="false" Pos="588,264" rotation="0" hflip="1" vflip="1" label="TextComponent-338" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-340" mainComp="false" Show_id="false" Show_Val="false" Pos="580,288" rotation="0" hflip="1" vflip="1" label="TextComponent-340" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-343" mainComp="false" Show_id="false" Show_Val="false" Pos="648,272" rotation="0" hflip="1" vflip="1" label="TextComponent-343" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-344" mainComp="false" Show_id="false" Show_Val="false" Pos="648,288" rotation="0" hflip="1" vflip="1" label="TextComponent-344" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-346" mainComp="false" Show_id="false" Show_Val="false" Pos="524,496" rotation="0" hflip="1" vflip="1" label="TextComponent-346" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-347" mainComp="false" Show_id="false" Show_Val="false" Pos="516,492" rotation="0" hflip="1" vflip="1" label="TextComponent-347" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-352" mainComp="false" Show_id="false" Show_Val="false" Pos="516,480" rotation="0" hflip="1" vflip="1" label="TextComponent-352" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-353" mainComp="false" Show_id="false" Show_Val="false" Pos="456,496" rotation="0" hflip="1" vflip="1" label="TextComponent-353" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-354" mainComp="false" Show_id="false" Show_Val="false" Pos="460,480" rotation="0" hflip="1" vflip="1" label="TextComponent-354" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-355" mainComp="false" Show_id="false" Show_Val="false" Pos="460,472" rotation="0" hflip="1" vflip="1" label="TextComponent-355" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-356" mainComp="false" Show_id="false" Show_Val="false" Pos="368,368" rotation="0" hflip="1" vflip="1" label="TextComponent-356" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-359" mainComp="false" Show_id="false" Show_Val="false" Pos="368,380" rotation="0" hflip="1" vflip="1" label="TextComponent-359" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-360" mainComp="false" Show_id="false" Show_Val="false" Pos="360,392" rotation="0" hflip="1" vflip="1" label="TextComponent-360" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="3 _px" Fixed_Width="false" Text="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-361" mainComp="false" Show_id="false" Show_Val="false" Pos="752,4" rotation="0" hflip="1" vflip="1" label="TextComponent-361" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="RESISTOR CONTROLA &#xa;A QUANTIDADE DE CORRENTE&#xa;QUE PASSA PELOS FIOS" />
+
+<item itemtype="TextComponent" CircId="TextComponent-362" mainComp="false" Show_id="false" Show_Val="false" Pos="712,372" rotation="0" hflip="1" vflip="1" label="TextComponent-362" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="RESISTOR CONTROLA &#xa;A QUANTIDADE DE CORRENTE&#xa;QUE PASSA PELOS FIOS" />
+
+<item itemtype="TextComponent" CircId="TextComponent-363" mainComp="false" Show_id="false" Show_Val="false" Pos="700,92" rotation="0" hflip="1" vflip="1" label="TextComponent-363" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="TERRA É O CAMINHO DE RETORNO&#xa;DA CORRENTE, ONDE FECHA O CIRCUITO" />
+
+<item itemtype="TextComponent" CircId="TextComponent-365" mainComp="false" Show_id="false" Show_Val="false" Pos="648,456" rotation="0" hflip="1" vflip="1" label="TextComponent-365" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="5 _px" Fixed_Width="false" Text="TERRA É O CAMINHO DE RETORNO&#xa;DA CORRENTE, ONDE FECHA O CIRCUITO" />
+
 <item itemtype="Node" CircId="Node-26" mainComp="false" Pos="-420,176" />
 
-<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="-408,596" />
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="-392,472" />
 
-<item itemtype="Node" CircId="Node-45" mainComp="false" Pos="-420,660" />
+<item itemtype="Node" CircId="Node-45" mainComp="false" Pos="-404,536" />
 
-<item itemtype="Node" CircId="Node-46" mainComp="false" Pos="-428,596" />
+<item itemtype="Node" CircId="Node-46" mainComp="false" Pos="-412,472" />
 
 <item itemtype="Node" CircId="Node-74" mainComp="false" Pos="332,-156" />
 
@@ -244,43 +566,39 @@
 
 <item itemtype="Connector" uid="Connector-21" startpinid="Resistor-27-rPin" endpinid="Ground-29-Gnd" pointList="-228,328,-208,328,-208,344" />
 
-<item itemtype="Connector" uid="Connector-24" startpinid="And Gate-43-in0" endpinid="Node-44-1" pointList="-388,688,-408,688,-408,596" />
+<item itemtype="Connector" uid="Connector-24" startpinid="And Gate-43-in0" endpinid="Node-44-1" pointList="-372,564,-392,564,-392,472" />
 
-<item itemtype="Connector" uid="Connector-26" startpinid="Node-44-2" endpinid="Or Gate-35-in0" pointList="-408,596,-392,596,-392,620" />
+<item itemtype="Connector" uid="Connector-26" startpinid="Node-44-2" endpinid="Or Gate-35-in0" pointList="-392,472,-376,472,-376,496" />
 
-<item itemtype="Connector" uid="Connector-27" startpinid="And Gate-43-in1" endpinid="Node-45-1" pointList="-388,696,-420,696,-420,660" />
+<item itemtype="Connector" uid="Connector-27" startpinid="And Gate-43-in1" endpinid="Node-45-1" pointList="-372,572,-404,572,-404,536" />
 
-<item itemtype="Connector" uid="Connector-28" startpinid="Or Gate-35-in1" endpinid="Node-45-0" pointList="-392,628,-392,660,-420,660" />
+<item itemtype="Connector" uid="Connector-28" startpinid="Or Gate-35-in1" endpinid="Node-45-0" pointList="-376,504,-376,536,-404,536" />
 
-<item itemtype="Connector" uid="Connector-29" startpinid="Node-45-2" endpinid="Fixed Voltage-40-outnod" pointList="-420,660,-444,660" />
+<item itemtype="Connector" uid="Connector-29" startpinid="Node-45-2" endpinid="Fixed Voltage-40-outnod" pointList="-404,536,-428,536" />
 
-<item itemtype="Connector" uid="Connector-30" startpinid="Buffer-36-in0" endpinid="Node-46-1" pointList="-400,748,-428,748,-428,596" />
+<item itemtype="Connector" uid="Connector-30" startpinid="Buffer-36-in0" endpinid="Node-46-1" pointList="-384,624,-412,624,-412,472" />
 
-<item itemtype="Connector" uid="Connector-31" startpinid="Fixed Voltage-38-outnod" endpinid="Node-46-0" pointList="-444,596,-428,596" />
+<item itemtype="Connector" uid="Connector-31" startpinid="Fixed Voltage-38-outnod" endpinid="Node-46-0" pointList="-428,472,-412,472" />
 
-<item itemtype="Connector" uid="Connector-32" startpinid="Node-46-2" endpinid="Node-44-0" pointList="-428,596,-408,596" />
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-46-2" endpinid="Node-44-0" pointList="-412,472,-392,472" />
 
-<item itemtype="Connector" uid="Connector-33" startpinid="Or Gate-35-out" endpinid="Led-41-lPin" pointList="-360,624,-316,624" />
+<item itemtype="Connector" uid="Connector-33" startpinid="Or Gate-35-out" endpinid="Led-41-lPin" pointList="-344,500,-300,500" />
 
-<item itemtype="Connector" uid="Connector-34" startpinid="Led-41-rPin" endpinid="Resistor-32-lPin" pointList="-284,624,-252,624" />
+<item itemtype="Connector" uid="Connector-34" startpinid="Led-41-rPin" endpinid="Resistor-32-lPin" pointList="-268,500,-236,500" />
 
-<item itemtype="Connector" uid="Connector-35" startpinid="Resistor-32-rPin" endpinid="Ground-37-Gnd" pointList="-220,624,-200,624,-200,640" />
+<item itemtype="Connector" uid="Connector-35" startpinid="Resistor-32-rPin" endpinid="Ground-37-Gnd" pointList="-204,500,-184,500,-184,516" />
 
-<item itemtype="Connector" uid="Connector-36" startpinid="Resistor-33-rPin" endpinid="Ground-39-Gnd" pointList="-224,748,-204,748,-204,764" />
+<item itemtype="Connector" uid="Connector-36" startpinid="Resistor-33-rPin" endpinid="Ground-39-Gnd" pointList="-208,624,-188,624,-188,640" />
 
-<item itemtype="Connector" uid="Connector-37" startpinid="Resistor-33-lPin" endpinid="Led-34-rPin" pointList="-256,748,-288,748" />
+<item itemtype="Connector" uid="Connector-37" startpinid="Resistor-33-lPin" endpinid="Led-34-rPin" pointList="-240,624,-272,624" />
 
-<item itemtype="Connector" uid="Connector-38" startpinid="Led-34-lPin" endpinid="Buffer-36-out" pointList="-320,748,-368,748" />
+<item itemtype="Connector" uid="Connector-38" startpinid="Led-34-lPin" endpinid="Buffer-36-out" pointList="-304,624,-352,624" />
 
-<item itemtype="Connector" uid="Connector-39" startpinid="And Gate-43-out" endpinid="Led-49-lPin" pointList="-356,692,-316,692" />
+<item itemtype="Connector" uid="Connector-39" startpinid="And Gate-43-out" endpinid="Led-49-lPin" pointList="-340,568,-300,568" />
 
-<item itemtype="Connector" uid="Connector-40" startpinid="Led-49-rPin" endpinid="Resistor-47-lPin" pointList="-284,692,-252,692" />
+<item itemtype="Connector" uid="Connector-40" startpinid="Led-49-rPin" endpinid="Resistor-47-lPin" pointList="-268,568,-236,568" />
 
-<item itemtype="Connector" uid="Connector-41" startpinid="Resistor-47-rPin" endpinid="Ground-50-Gnd" pointList="-220,692,-200,692,-200,708" />
-
-<item itemtype="Connector" uid="Connector-48" startpinid="Buffer-69-out" endpinid="And Gate-70-in0" pointList="456,-112,484,-112,484,-104" />
-
-<item itemtype="Connector" uid="Connector-49" startpinid="Buffer-68-out" endpinid="And Gate-70-in1" pointList="456,-84,484,-84,484,-96" />
+<item itemtype="Connector" uid="Connector-41" startpinid="Resistor-47-rPin" endpinid="Ground-50-Gnd" pointList="-204,568,-184,568,-184,584" />
 
 <item itemtype="Connector" uid="Connector-51" startpinid="And Gate-70-out" endpinid="And Gate-71-in1" pointList="516,-100,540,-100,540,-128" />
 
@@ -311,10 +629,6 @@
 <item itemtype="Connector" uid="Connector-73" startpinid="And Gate-84-out" endpinid="And Gate-83-in0" pointList="512,64,532,64,532,84" />
 
 <item itemtype="Connector" uid="Connector-74" startpinid="And Gate-83-in1" endpinid="And Gate-82-out" pointList="532,92,532,116,508,116" />
-
-<item itemtype="Connector" uid="Connector-76" startpinid="And Gate-73-in0" endpinid="Node-85-0" pointList="472,-36,300,-36" />
-
-<item itemtype="Connector" uid="Connector-77" startpinid="Node-85-2" endpinid="Node-75-1" pointList="300,-36,300,-164" />
 
 <item itemtype="Connector" uid="Connector-79" startpinid="Node-74-1" endpinid="Node-86-0" pointList="332,-156,332,-28" />
 
@@ -358,10 +672,6 @@
 
 <item itemtype="Connector" uid="Connector-121" startpinid="Node-102-2" endpinid="Node-87-1" pointList="408,120,408,28" />
 
-<item itemtype="Connector" uid="Connector-123" startpinid="74HC08-93-1Y" endpinid="74HC08-93-3A" pointList="468,176,436,176,436,244,548,244,548,200,516,200" />
-
-<item itemtype="Connector" uid="Connector-124" startpinid="74HC08-93-2Y" endpinid="74HC08-93-3B" pointList="468,200,448,200,448,252,560,252,560,192,516,192" />
-
 <item itemtype="Connector" uid="Connector-126" startpinid="74HC08-93-1A" endpinid="Node-104-0" pointList="468,160,300,160" />
 
 <item itemtype="Connector" uid="Connector-127" startpinid="Node-104-2" endpinid="Node-97-1" pointList="300,160,300,60" />
@@ -370,19 +680,13 @@
 
 <item itemtype="Connector" uid="Connector-130" startpinid="Node-105-2" endpinid="Node-98-1" pointList="332,168,332,68" />
 
-<item itemtype="Connector" uid="Connector-132" startpinid="74HC08-93-2A" endpinid="Node-108-0" pointList="468,184,368,184" />
-
 <item itemtype="Connector" uid="Connector-133" startpinid="Node-108-2" endpinid="Node-101-1" pointList="368,184,368,112" />
-
-<item itemtype="Connector" uid="Connector-136" startpinid="74HC04-107-1Y" endpinid="74HC08-103-2A" pointList="376,360,348,360,348,436,456,436,456,328,472,328" />
 
 <item itemtype="Connector" uid="Connector-138" startpinid="74HC08-93-2B" endpinid="Node-109-0" pointList="468,192,408,192" />
 
 <item itemtype="Connector" uid="Connector-139" startpinid="Node-109-2" endpinid="Node-102-1" pointList="408,192,408,120" />
 
 <item itemtype="Connector" uid="Connector-147" startpinid="74HC08-111-1A" endpinid="Node-112-1" pointList="468,456,300,456,300,304" />
-
-<item itemtype="Connector" uid="Connector-148" startpinid="74HC08-103-1A" endpinid="Node-112-0" pointList="472,304,300,304" />
 
 <item itemtype="Connector" uid="Connector-149" startpinid="Node-112-2" endpinid="Node-104-1" pointList="300,304,300,160" />
 
@@ -391,10 +695,6 @@
 <item itemtype="Connector" uid="Connector-151" startpinid="74HC08-103-1B" endpinid="Node-113-0" pointList="472,312,332,312" />
 
 <item itemtype="Connector" uid="Connector-152" startpinid="Node-113-2" endpinid="Node-105-1" pointList="332,312,332,168" />
-
-<item itemtype="Connector" uid="Connector-153" startpinid="74HC08-103-2Y" endpinid="74HC08-103-3B" pointList="472,344,464,344,464,384,532,384,532,336,520,336" />
-
-<item itemtype="Connector" uid="Connector-154" startpinid="74HC04-107-2A" endpinid="Node-114-1" pointList="376,368,352,368,352,208,368,208" />
 
 <item itemtype="Connector" uid="Connector-155" startpinid="Node-108-1" endpinid="Node-114-0" pointList="368,184,368,208" />
 
@@ -406,28 +706,50 @@
 
 <item itemtype="Connector" uid="Connector-162" startpinid="74HC08-111-3B" endpinid="74HC08-111-2Y" pointList="516,488,524,488,524,540,464,540,464,496,468,496" />
 
-<item itemtype="Connector" uid="Connector-163" startpinid="74HC08-111-1Y" endpinid="74HC08-111-3A" pointList="468,472,452,472,452,548,532,548,532,496,516,496" />
-
 <item itemtype="Connector" uid="Connector-164" startpinid="74HC04-107-3A" endpinid="Node-115-1" pointList="376,384,344,384,344,200,408,200" />
-
-<item itemtype="Connector" uid="Connector-165" startpinid="74HC08-103-2B" endpinid="Node-115-0" pointList="472,336,408,336,408,200" />
 
 <item itemtype="Connector" uid="Connector-166" startpinid="Node-115-2" endpinid="Node-109-1" pointList="408,200,408,192" />
 
-<item itemtype="Connector" uid="Connector-169" startpinid="74HC08-111-3Y" endpinid="74HC32-120-1A" pointList="516,504,572,504,572,276,600,276" />
-
-<item itemtype="Connector" uid="Connector-181" startpinid="74HC08-103-3A" endpinid="74HC08-103-1Y" pointList="520,344,524,344,524,392,444,392,444,320,472,320" />
-
-<item itemtype="Connector" uid="Connector-183" startpinid="74HC32-120-2B" endpinid="74HC08-93-3Y" pointList="600,300,568,300,568,208,516,208" />
-
 <item itemtype="Connector" uid="Connector-184" startpinid="74HC32-120-1B" endpinid="74HC08-103-3Y" pointList="600,284,580,284,580,352,520,352" />
-
-<item itemtype="Connector" uid="Connector-185" startpinid="74HC32-120-2A" endpinid="74HC32-120-1Y" pointList="600,292,588,292,588,348,660,348,660,284,648,284" />
 
 <item itemtype="Connector" uid="Connector-187" startpinid="74HC32-120-2Y" endpinid="Led-125-lPin" pointList="648,300,696,300,696,312" />
 
 <item itemtype="Connector" uid="Connector-188" startpinid="Led-125-rPin" endpinid="Resistor-127-lPin" pointList="696,344,696,372" />
 
 <item itemtype="Connector" uid="Connector-189" startpinid="Resistor-127-rPin" endpinid="Ground-126-Gnd" pointList="696,404,696,432" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="Buffer-69-out" endpinid="And Gate-70-in0" pointList="456,-112,484,-112,484,-104" />
+
+<item itemtype="Connector" uid="Connector-209" startpinid="Buffer-68-out" endpinid="And Gate-70-in1" pointList="456,-84,484,-84,484,-96" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Node-85-2" endpinid="Node-75-1" pointList="300,-36,300,-164" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="And Gate-73-in0" endpinid="Node-85-0" pointList="472,-36,300,-36" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="74HC08-93-2Y" endpinid="74HC08-93-3B" pointList="468,200,448,200,448,252,560,252,560,192,516,192" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="74HC08-93-1Y" endpinid="74HC08-93-3A" pointList="468,176,436,176,436,244,548,244,548,200,516,200" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="74HC08-93-2A" endpinid="Node-108-0" pointList="468,184,368,184" />
+
+<item itemtype="Connector" uid="Connector-163" startpinid="74HC08-111-1Y" endpinid="74HC08-111-3A" pointList="468,472,452,472,452,548,532,548,532,496,516,496" />
+
+<item itemtype="Connector" uid="Connector-165" startpinid="74HC08-103-2B" endpinid="Node-115-0" pointList="472,336,408,336,408,200" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="74HC08-103-3A" endpinid="74HC08-103-1Y" pointList="520,344,524,344,524,392,444,392,444,320,472,320" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="74HC04-107-1Y" endpinid="74HC08-103-2A" pointList="376,360,348,360,348,436,456,436,456,328,472,328" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="74HC08-103-2Y" endpinid="74HC08-103-3B" pointList="472,344,464,344,464,384,532,384,532,336,520,336" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="74HC08-103-1A" endpinid="Node-112-0" pointList="472,304,300,304" />
+
+<item itemtype="Connector" uid="Connector-183" startpinid="74HC32-120-2B" endpinid="74HC08-93-3Y" pointList="600,300,568,300,568,208,516,208" />
+
+<item itemtype="Connector" uid="Connector-185" startpinid="74HC32-120-2A" endpinid="74HC32-120-1Y" pointList="600,292,588,292,588,348,660,348,660,284,648,284" />
+
+<item itemtype="Connector" uid="Connector-325" startpinid="74HC08-111-3Y" endpinid="74HC32-120-1A" pointList="516,504,572,504,572,276,600,276" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="74HC04-107-2A" endpinid="Node-114-1" pointList="376,368,352,368,352,208,368,208" />
 
 </circuit>
