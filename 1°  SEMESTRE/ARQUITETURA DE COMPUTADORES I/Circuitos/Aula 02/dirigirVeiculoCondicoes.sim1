@@ -1,6 +1,6 @@
-<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="1.1.0-SR1" rev="" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="TextComponent" CircId="TextComponent-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,-204" rotation="0" hflip="1" vflip="1" label="PORTA  CINTO  MARCHA  EMBREAGEM" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="PORTA (A) CINTO (B)  MARCHA (C) EMBREAGEM (D)" />
+<item itemtype="TextComponent" CircId="TextComponent-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-88,-208" rotation="0" hflip="1" vflip="1" label="PORTA  CINTO  MARCHA  EMBREAGEM" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="PORTA (A) CINTO (B)  MARCHA (C) EMBREAGEM (D)" />
 
 <item itemtype="RelaySPST" CircId="RelaySPST-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-112" rotation="0" hflip="1" vflip="1" label="RelaySPST-9" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
 
@@ -66,9 +66,47 @@
 
 <item itemtype="Battery" CircId="Battery-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-56" rotation="90" hflip="1" vflip="1" label="Battery-54" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
 
-<item itemtype="Ground" CircId="Ground-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,24" rotation="0" hflip="1" vflip="1" label="Ground-55" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,44" rotation="0" hflip="1" vflip="1" label="Ground-55" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Ground" CircId="Ground-58" mainComp="false" Show_id="false" Show_Val="false" Pos="324,76" rotation="0" hflip="1" vflip="1" label="Ground-58" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,72" rotation="0" hflip="1" vflip="1" label="TextComponent-63" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#26a269" Font_Size="10 _px" Fixed_Width="false" Text="PORTA FECHADA&#xa;CINTO COLOCADO &#xa;----------------------------&#xa;PODE DIRIGIR!" />
+
+<item itemtype="TextComponent" CircId="TextComponent-64" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,252" rotation="0" hflip="1" vflip="1" label="TextComponent-64" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#26a269" Font_Size="10 _px" Fixed_Width="false" Text="PORTA FECHADA&#xa;CINTO COLOCADO &#xa;PÉ NA MARCHA&#xa;PÉ NA EMBREAGEM&#xa;----------------------------&#xa;PODE DIRIGIR!" />
+
+<item itemtype="TextComponent" CircId="TextComponent-65" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,156" rotation="0" hflip="1" vflip="1" label="TextComponent-65" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#26a269" Font_Size="10 _px" Fixed_Width="false" Text="PORTA FECHADA&#xa;CINTO COLOCADO &#xa;PÉ NA EMBREAGEM&#xa;----------------------------&#xa;PODE DIRIGIR!" />
+
+<item itemtype="TextComponent" CircId="TextComponent-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-596,32" rotation="0" hflip="1" vflip="1" label="TextComponent-66" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#a51d2d" Font_Size="10 _px" Fixed_Width="false" Text="PORTA ABERTA&#xa;SEM CINTO &#xa;----------------------------&#xa;NÃO PODE DIRIGIR! X" />
+
+<item itemtype="TextComponent" CircId="TextComponent-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-600,116" rotation="0" hflip="1" vflip="1" label="TextComponent-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#a51d2d" Font_Size="10 _px" Fixed_Width="false" Text="PORTA ABERTA&#xa;SEM CINTO &#xa;SEM USAR EMBREAGEM&#xa;----------------------------&#xa;NÃO PODE DIRIGIR! X" />
+
+<item itemtype="TextComponent" CircId="TextComponent-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-600,212" rotation="0" hflip="1" vflip="1" label="TextComponent-68" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#a51d2d" Font_Size="10 _px" Fixed_Width="false" Text="PORTA ABERTA&#xa;SEM CINTO &#xa;SEM USAR A MARCHA&#xa;SEM USAR EMBREAGEM&#xa;----------------------------&#xa;NÃO PODE DIRIGIR! X" />
+
+<item itemtype="TextComponent" CircId="TextComponent-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-600,324" rotation="0" hflip="1" vflip="1" label="TextComponent-69" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#a51d2d" Font_Size="10 _px" Fixed_Width="false" Text="TUDO CERTO MAS...&#xa;SEM USAR EMBREAGEM&#xa;----------------------------&#xa;NÃO PODE DIRIGIR! X" />
+
+<item itemtype="TextComponent" CircId="TextComponent-70" mainComp="false" Show_id="false" Show_Val="false" Pos="44,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="5 _px" Fixed_Width="false" Text="Chave INVERTIDA" />
+
+<item itemtype="TextComponent" CircId="TextComponent-71" mainComp="false" Show_id="false" Show_Val="false" Pos="48,-80" rotation="0" hflip="1" vflip="1" label="TextComponent-71" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="5 _px" Fixed_Width="false" Text="Chave INVERTIDA" />
+
+<item itemtype="TextComponent" CircId="TextComponent-72" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-72" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#63452c" Font_Size="5 _px" Fixed_Width="false" Text="Chave INVERTIDA" />
+
+<item itemtype="TextComponent" CircId="TextComponent-73" mainComp="false" Show_id="false" Show_Val="false" Pos="384,-40" rotation="0" hflip="1" vflip="1" label="TextComponent-73" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="MOTOR PARA DIRIGIR" />
+
+<item itemtype="TextComponent" CircId="TextComponent-74" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,160" rotation="0" hflip="1" vflip="1" label="TextComponent-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="4 ENTRADAS" />
+
+<item itemtype="TextComponent" CircId="TextComponent-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-104,108" rotation="0" hflip="1" vflip="1" label="TextComponent-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="A" />
+
+<item itemtype="TextComponent" CircId="TextComponent-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-48,108" rotation="0" hflip="1" vflip="1" label="TextComponent-76" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="B" />
+
+<item itemtype="TextComponent" CircId="TextComponent-77" mainComp="false" Show_id="false" Show_Val="false" Pos="16,108" rotation="0" hflip="1" vflip="1" label="TextComponent-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="C" />
+
+<item itemtype="TextComponent" CircId="TextComponent-78" mainComp="false" Show_id="false" Show_Val="false" Pos="84,108" rotation="0" hflip="1" vflip="1" label="TextComponent-78" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="D" />
+
+<item itemtype="TextComponent" CircId="TextComponent-79" mainComp="false" Show_id="false" Show_Val="false" Pos="388,-4" rotation="0" hflip="1" vflip="1" label="TextComponent-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="O MOTOR SÓ VAI &#xa;SER LIGADO SEGUINDO AS CONDIÇÕES" />
+
+<item itemtype="TextComponent" CircId="TextComponent-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-116" rotation="0" hflip="1" vflip="1" label="TextComponent-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="RELÉS &#x3D&#x3D INTERRUPTORES ELETROMECÂNICOS" />
+
+<item itemtype="TextComponent" CircId="TextComponent-81" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-244" rotation="0" hflip="1" vflip="1" label="TextComponent-81" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="SISTEMA DE SENSORES DE CARRO" />
 
 <item itemtype="Node" CircId="Node-26" mainComp="false" Pos="-244,148" />
 
@@ -180,7 +218,7 @@
 
 <item itemtype="Connector" uid="Connector-7" startpinid="Node-27-1" endpinid="Switch-23-pinP0" pointList="-244,184,8,184,8,104" />
 
-<item itemtype="Connector" uid="Connector-66" startpinid="Battery-54-rPin" endpinid="Ground-55-Gnd" pointList="-372,-40,-372,8" />
+<item itemtype="Connector" uid="Connector-66" startpinid="Battery-54-rPin" endpinid="Ground-55-Gnd" pointList="-372,-40,-372,28" />
 
 <item itemtype="Connector" uid="Connector-69" startpinid="RelaySPST-9-pinP2" endpinid="Node-56-0" pointList="-68,-128,-372,-128,-372,-88" />
 
