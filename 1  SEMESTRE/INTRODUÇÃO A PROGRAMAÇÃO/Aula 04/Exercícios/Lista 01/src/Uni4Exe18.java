@@ -49,7 +49,7 @@ public class Uni4Exe18 {
 
     /** metodo para pagamento em dia (desconto de 10%) */
     private static void pagamentoEmDia(double valorPrestacao) {
-        double valorComDesconto = valorPrestacao * 0.90;
+        double valorComDesconto = valorPrestacao * 0.1;
         System.out.println("Pagamento em dia. Desconto de 10% aplicado.");
         mostrarPagamento(valorComDesconto);
     }
