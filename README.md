@@ -42,5 +42,5 @@ Durante o curso, utilizei linguagens e tecnologias, incluindo:
 ## 📬 Contato
 Se precisar entrar em contato, pode me encontrar em:
 
-- ✉️ [Email] (bruchnicole04@gmail.com)
+- ✉️ [Email](mailto:bruchnicole04@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/bruchnicole/)
