@@ -1,0 +1,14 @@
+Questão 3 (0,5)
+
+As informações produzidas após a execução de um programa são chamadas:
+Assinale a opção correta:
+
+a. Dados de entrada.
+b. Dados intermediários.
+c. Regras.
+d. Dados de saída.
+e. Processos.
+
+Resposta da Alternativa Correta:
+
+d. Dados de saída.

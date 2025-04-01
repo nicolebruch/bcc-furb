@@ -1,0 +1,17 @@
+Questão 1 (0,5)
+
+Assinale as alternativas corretas. (Escolha uma ou mais)
+
+a. Conjugações como "dado", "tendo" ou "leia" indicam dados de entrada de um algoritmo.
+b. Os dados intermediários precisam estar explícitos no enunciado do exercício.
+c. Verbos como "informe", "escreva" ou "imprima" indicam dados de saída de um algoritmo.
+d. Para identificar os dados de entrada é necessário identificar o que o algoritmo pede.
+e. Para identificar os dados de saída é necessário identificar o que o algoritmo tem.
+
+
+Resposta das Alternativas Corretas:
+
+a. Conjugações como "dado", "tendo" ou "leia" indicam dados de entrada de um algoritmo.
+d. Para identificar os dados de entrada é necessário identificar o que o algoritmo pede.
+e. Para identificar os dados de saída é necessário identificar o que o algoritmo tem.
+

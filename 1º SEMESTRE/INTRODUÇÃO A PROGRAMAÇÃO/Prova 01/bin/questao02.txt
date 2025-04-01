@@ -1,0 +1,12 @@
+Questão 2 (0,5)
+
+Associe os tipos de dados, com as seguintes opções: Numéricos inteiros, Numéricos reais,
+Alfanumérico e Lógico
+a. float ____Numérico Real__________________
+b. short ____Numérico Real__________________
+c. byte _____Numérico Real__________________
+d. boolean __Lógico_________________________
+e. long _____Numérico Real__________________
+f. char _____Alfanumérico___________________
+g. double ___Numérico Real__________________
+h. int ______Numérico Inteiro_______________
