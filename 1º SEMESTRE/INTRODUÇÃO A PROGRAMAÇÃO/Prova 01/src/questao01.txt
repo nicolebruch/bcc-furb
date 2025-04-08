@@ -12,6 +12,4 @@ e. Para identificar os dados de saída é necessário identificar o que o algori
 Resposta das Alternativas Corretas:
 
 a. Conjugações como "dado", "tendo" ou "leia" indicam dados de entrada de um algoritmo.
-d. Para identificar os dados de entrada é necessário identificar o que o algoritmo pede.
-e. Para identificar os dados de saída é necessário identificar o que o algoritmo tem.
-
+c. Verbos como "informe", "escreva" ou "imprima" indicam dados de saída de um algoritmo.
