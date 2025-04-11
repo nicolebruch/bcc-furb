@@ -13,7 +13,7 @@ public class Uni5Exe04 {
         double numerador = 3;
         double denominador = 2;
 
-        for (int i = 1; i <= 20 i++) {
+        for (int i = 1; i <= 20; i++) {
             soma = soma + (numerador / denominador);
             numerador = numerador + 2; 
             denominador = denominador + i;
