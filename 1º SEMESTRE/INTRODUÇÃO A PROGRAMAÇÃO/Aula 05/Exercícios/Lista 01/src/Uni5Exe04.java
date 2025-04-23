@@ -8,17 +8,16 @@ Pense no resultado!*/
 
 public class Uni5Exe04 {
     public static void main(String[] args) {
-
-        double soma = 0;
         double numerador = 3;
         double denominador = 2;
-
+        double acumulador = 2;
+        double soma = 0;
         for (int i = 1; i <= 20; i++) {
             soma = soma + (numerador / denominador);
-            numerador = numerador + 2; 
-            denominador = denominador + i;
+            numerador = numerador + 2;
+            acumulador = acumulador + 2;
+            denominador = denominador + acumulador;
         }
-        System.out.println("A soma da série é: " + soma);
+        System.out.println("soma: " + soma);
     }
-
 }

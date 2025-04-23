@@ -5,6 +5,7 @@ escreva a soma da seguinte série de 100 termos:
 //precisa usar o FOR
 
 public class Uni5Exe03 {
+    
     public static void main(String[] args) {
 
         double soma = 0;
