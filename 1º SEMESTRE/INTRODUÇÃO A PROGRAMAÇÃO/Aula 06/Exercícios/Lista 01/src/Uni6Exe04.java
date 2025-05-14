@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Uni6Exe04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-a
+
         int vetor1[] = new int[10];
         int vetor2[] = new int[10];
         int vetor3[] = new int[10];
