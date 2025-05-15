@@ -103,17 +103,155 @@ public class Uni6Exe10Desafio {
 
     Scanner scanner = new Scanner(System.in);
 
-    int matriculas[] = new int[20];
-    double notas[] = new double[20];
-    int frequencias[] = new int[20];
+    int matriculasVetor[] = new int[20];
+    double notasVetor[] = new double[20];
+    int frequenciasVetor[] = new int[20];
 
+    int qntdAlunos = 0;
+    int opcao = 0;
+    int matricula = 0;
+    int frequencia = 0;
+    int qntdAprovados = 0;
+    int qntdRecuperacao = 0;
+    int qntdReprovados = 0;
 
-    
+    do {
 
+      System.out.println("===== SISTEMA DE ANÁLISE DE NOTAS =====");
+      System.out.println("1. Cadastrar aluno");
+      System.out.println("2. Exibir dados de todos os alunos");
+      System.out.println("3. Calcular estatísticas da turma");
+      System.out.println("4. Verificar situação de um aluno específico");
+      System.out.println("=======================================");
 
+      System.out.println("Escolha uma opção: ");
+      opcao = scanner.nextInt();
 
+      switch (opcao) {
 
+        /*
+         * opção --> 1: Cadastrar aluno
+         * Vetores para armazenar os dados dos alunos
+         * - pede numero da matricula dele
+         * - pede a nota dele
+         * - pede a frequencia dele
+         * 
+         * usa um loop p encontrar a posicao de um aluno pelo numero da matricula
+         * - verifica se a matricula ja existe
+         * - se existir ele nao vai cadastrar o aluno
+         * - se nao existir, ele armazena todos esses dados 1 em cada vetor
+         */
+        case 1:
 
+          if (qntdAlunos >= 20) {
+            System.out.println("Número de alunos excedeu o limite. :/");
+          } else {
+            System.out.println("Informe o número da sua matrícula: ");
+            matricula = scanner.nextInt();
+          }
+
+          for (int i = 0; i < 20; i++) {
+            if (matricula == matriculasVetor[i]) {
+              System.out.println("A matrícula informada já possui cadastro.");
+              System.out.println("Informe novamente a sua matricula: ");
+
+            }
+          }
+
+          matriculasVetor[qntdAlunos] = matricula;
+
+          System.out.println("Informe a sua nota: ");
+          double nota = scanner.nextDouble();
+
+          if (nota < 0 || nota > 10) {
+            System.out.println("A nota informada é inválida.");
+            System.out.println("Informe novamente a sua nota: ");
+            nota = scanner.nextDouble();
+          }
+
+          notasVetor[qntdAlunos] = nota;
+
+          System.out.println("Informe a sua frequência: ");
+          frequencia = scanner.nextInt();
+
+          if (frequencia < 0 || nota > 20) {
+            System.out.println("A frequência informada é inválida.");
+            System.out.println("Informe novamente a sua frequência: ");
+            frequencia = scanner.nextInt();
+          }
+
+          frequenciasVetor[qntdAlunos] = frequencia;
+
+          qntdAlunos++;
+
+          break;
+
+        /*
+         * opção --> 2: Exibir dados de todos os alunos
+         * Loop for para percorrer e exibir os vetores
+         * - vai mostrar no terminal todos os alunos cadastrados
+         * - mostra no terminal a matricula de todos os alunos
+         * - mostra no terminal a nota de todos os alunos
+         * - mostra no terminal frequencia de todos os alunos
+         * - mostra no terminal a situacao de aprovacao do ladinho de cada aluno
+         * Estrutura if-else para verificar a situação dos alunos
+         * 
+         * "Aprovado" se nota >= 7.0 e frequência >= 15
+         * "Recuperação" se nota >= 5.0 e < 7.0 e frequência >= 15
+         * "Reprovado por nota" se nota < 5.0 e frequência >= 15
+         * "Reprovado por frequência" se frequência < 15
+         */
+        case 2:
+
+          break;
+
+        /*
+         * opção --> 3: Calcular estatísticas da turma
+         * utilizar variaveis aux/temp pra calcular as estatisticas
+         * - calcula e mostra a maior nota da turma
+         * - calcula e mostra a menor nota da turma
+         * 
+         * - calcula e mostra a media das notas
+         * 
+         * - calcula e mostra a quantidade de alunos aprovados
+         * - calcula e mostra a quantidade alunos em recuperacao
+         * - calcula e mostra a quantidade de alunos reprovados
+         * 
+         * - calcula e mostra quantos porcentos (%) de provacao
+         * aprovados / total de alunos
+         */
+        case 3:
+
+          break;
+
+        /*
+         * opção --> 4: Verificar situação de um aluno específico
+         * Loop while para buscar um aluno específico
+         * - pede o numero da matricula do aluno
+         * - encontra o aluno no vetor de matriculas
+         * 
+         * - mostro no terminal a matricula do aluno
+         * - mostro no terminal a nota do aluno
+         * - mostro no terminal a frequencia do aluno
+         * mostro no terminal se ele ta aprovado, de recuperacao ou reprovado
+         * 
+         * - mostro uma mensagem personalizada conforme a situacao do aluno
+         * EX: Que felicidade! :)
+         * EX: Foco nos estudos! :|
+         * EX: Que pena! :(
+         */
+        case 4:
+
+          break;
+
+        default:
+          System.out.println("Opção não é válida.");
+          break;
+
+      }
+
+    } while (opcao == 5);
 
   }
+
 }

@@ -26,9 +26,9 @@ public class Uni6Exe03 {
         // ajustando os valores
         for (int i = 0; i < vetor.length; i++) {
             if (i % 2 == 0) { // par
-                vetor[i] = vetor[i] * 0.05;
-            } else { // impar
                 vetor[i] = vetor[i] * 0.02;
+            } else { // impar
+                vetor[i] = vetor[i] * 0.05;
             }
 
         }
