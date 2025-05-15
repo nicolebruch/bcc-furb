@@ -95,12 +95,25 @@ Loop while para buscar um aluno específico
 Escolha uma opção: _
  */
 
+import java.util.Scanner;
+
 public class Uni6Exe10Desafio {
 
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+
+    int matriculas[] = new int[20];
+    double notas[] = new double[20];
+    int frequencias[] = new int[20];
+
+
+    
 
 
 
 
 
-  
+
+  }
 }
