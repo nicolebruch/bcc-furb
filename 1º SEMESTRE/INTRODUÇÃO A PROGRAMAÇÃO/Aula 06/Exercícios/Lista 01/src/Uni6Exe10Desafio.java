@@ -148,41 +148,41 @@ public class Uni6Exe10Desafio {
           } else {
             System.out.println("Informe o número da sua matrícula: ");
             matricula = scanner.nextInt();
-          }
 
-          for (int i = 0; i < 20; i++) {
-            if (matricula == matriculasVetor[i]) {
-              System.out.println("A matrícula informada já possui cadastro.");
-              System.out.println("Informe novamente a sua matricula: ");
-
+            for (int i = 0; i < 20; i++) {
+              if (matricula == matriculasVetor[i]) {
+                System.out.println("A matrícula informada já possui cadastro.");
+                System.out.println("Informe novamente a sua matricula: ");
+                matricula = scanner.nextInt();
+              }
             }
-          }
 
-          matriculasVetor[qntdAlunos] = matricula;
+            matriculasVetor[qntdAlunos] = matricula;
 
-          System.out.println("Informe a sua nota: ");
-          double nota = scanner.nextDouble();
+            System.out.println("Informe a sua nota: ");
+            double nota = scanner.nextDouble();
 
-          if (nota < 0 || nota > 10) {
-            System.out.println("A nota informada é inválida.");
-            System.out.println("Informe novamente a sua nota: ");
-            nota = scanner.nextDouble();
-          }
+            if (nota < 0 || nota > 10) {
+              System.out.println("A nota informada é inválida.");
+              System.out.println("Informe novamente a sua nota: ");
+              nota = scanner.nextDouble();
+            }
 
-          notasVetor[qntdAlunos] = nota;
+            notasVetor[qntdAlunos] = nota;
 
-          System.out.println("Informe a sua frequência: ");
-          frequencia = scanner.nextInt();
-
-          if (frequencia < 0 || nota > 20) {
-            System.out.println("A frequência informada é inválida.");
-            System.out.println("Informe novamente a sua frequência: ");
+            System.out.println("Informe a sua frequência: ");
             frequencia = scanner.nextInt();
+
+            if (frequencia < 0 || nota > 20) {
+              System.out.println("A frequência informada é inválida.");
+              System.out.println("Informe novamente a sua frequência: ");
+              frequencia = scanner.nextInt();
+            }
+
+            frequenciasVetor[qntdAlunos] = frequencia;
+
+            qntdAlunos++;
           }
-
-          frequenciasVetor[qntdAlunos] = frequencia;
-
-          qntdAlunos++;
 
           break;
 
@@ -198,12 +198,12 @@ public class Uni6Exe10Desafio {
          */
         case 2:
 
-          for (int i = 0; i > qntdAlunos; i++) {
+          for (int i = 0; i < qntdAlunos; i++) {
             System.out.println("===== EXIBINDO DADOS DOS ALUNOS =====");
             System.out.println("Dados do aluno: " + i);
             System.out.println("Matrícula: " + matriculasVetor[i]);
             System.out.println("Nota: " + notasVetor[i]);
-            System.out.println("Frequência" + frequenciasVetor[i]);
+            System.out.println("Frequência: " + frequenciasVetor[i]);
 
             /*
              * "Aprovado" se nota >= 7.0 e frequência >= 15
@@ -212,39 +212,22 @@ public class Uni6Exe10Desafio {
              * "Reprovado por frequência" se frequência < 15
              */
 
-            // if (notasVetor[i] >= 7.0 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Aprovado");
-            // qntdAprovados++;
+            if (notasVetor[i] >= 7 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Aprovado");
+              qntdAprovados++;
 
-            // } else if (notasVetor[i] >= 5.0 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Recuperação");
-            // qntdRecuperacao++;
+            } else if (notasVetor[i] >= 5 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Recuperação");
+              qntdRecuperacao++;
 
-            // } else if (notasVetor[i] < 5.0 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Reprovado por nota");
-            // qntdReprovados++;
+            } else if (notasVetor[i] < 5 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Reprovado por nota");
+              qntdReprovados++;
 
-            // } else if (frequenciasVetor[i] < 15) {
-            // System.out.println("Situação: Reprovado por frequência");
-            // qntdReprovados++;
-            // }
-
-            if (frequenciasVetor[i] >= 15) {
-              if (notasVetor[i] >= 7.0) {
-                System.out.println("Situação: Aprovado");
-                qntdAprovados++;
-
-              } else if (notasVetor[i] >= 5.0) {
-                System.out.println("Situação: Recuperação");
-                qntdRecuperacao++;
-
-              } else {
-                System.out.println("Situação: Reprovado por nota");
-                qntdReprovados++;
-              }
-            } else {
+            } else if (frequenciasVetor[i] < 15) {
               System.out.println("Situação: Reprovado por frequência");
               qntdReprovados++;
+
             }
 
             System.out.println("=====================================");
@@ -289,43 +272,27 @@ public class Uni6Exe10Desafio {
 
             soma = soma + notasVetor[i];
 
-            // if (notasVetor[i] >= 7 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Aprovado.");
-            // qntdAprovados++;
+            if (notasVetor[i] >= 7 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Aprovado.");
+              qntdAprovados++;
 
-            // } else if (notasVetor[i] >= 5.0 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Recuperação");
-            // qntdRecuperacao++;
+            } else if (notasVetor[i] >= 5 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Recuperação");
+              qntdRecuperacao++;
 
-            // } else if (notasVetor[i] < 5.0 && frequenciasVetor[i] >= 15) {
-            // System.out.println("Situação: Reprovado por nota");
-            // qntdReprovados++;
+            } else if (notasVetor[i] < 5 && frequenciasVetor[i] >= 15) {
+              System.out.println("Situação: Reprovado por nota");
+              qntdReprovados++;
 
-            // } else if (frequenciasVetor[i] < 15) {
-            // System.out.println("Situação: Reprovado por frequência");
-            // qntdReprovados++;
-
-            // }
-
-            if (frequenciasVetor[i] >= 15) {
-              if (notasVetor[i] >= 7.0) {
-                System.out.println("Situação: Aprovado");
-                qntdAprovados++;
-
-              } else if (notasVetor[i] >= 5.0) {
-                System.out.println("Situação: Recuperação");
-                qntdRecuperacao++;
-
-              } else {
-                System.out.println("Situação: Reprovado por nota");
-                qntdReprovados++;
-              }
-            } else {
+            } else if (frequenciasVetor[i] < 15) {
               System.out.println("Situação: Reprovado por frequência");
               qntdReprovados++;
+
             }
+
           }
 
+          System.out.println("===== EXIBINDO ESTÁTISTICA DA TURMA ====");
           System.out.println("Maior nota: " + maiorNota);
           System.out.println("Menor nota: " + menorNota);
           System.out.println("Média das notas: " + (soma / qntdAlunos));
@@ -333,6 +300,7 @@ public class Uni6Exe10Desafio {
           System.out.println("Quantidade de alunos em Recuperação: " + qntdRecuperacao);
           System.out.println("Quantidade de alunos Reprovados: " + qntdReprovados);
           System.out.println("Porcentagem de Aprovação dos alunos: " + (qntdAprovados / qntdAlunos));
+          System.out.println("=======================================");
 
           qntdAprovados = 0;
           qntdRecuperacao = 0;
@@ -357,7 +325,7 @@ public class Uni6Exe10Desafio {
          * EX: Que pena! :(
          */
         case 4:
-
+          System.out.println("===== EXIBINDO SITUAÇÃO DE ALUNO ====");
           System.out.println("Informe o número da sua matrícula: ");
           int matriculaSituacao = scanner.nextInt();
 
@@ -366,25 +334,24 @@ public class Uni6Exe10Desafio {
               System.out.println("Nota: " + notasVetor[i]);
               System.out.println("Frequência" + frequenciasVetor[i]);
 
-              if (frequenciasVetor[i] >= 15) {
-                if (notasVetor[i] >= 7.0) {
-                  System.out.println("Situação: Aprovado");
-                  qntdAprovados++;
+              if (notasVetor[i] >= 7 && frequenciasVetor[i] >= 15) {
+                System.out.println("Situação: Aprovado.");
 
-                } else if (notasVetor[i] >= 5.0) {
-                  System.out.println("Situação: Recuperação");
-                  qntdRecuperacao++;
+              } else if (notasVetor[i] >= 5 && frequenciasVetor[i] >= 15) {
+                System.out.println("Situação: Recuperação");
 
-                } else {
-                  System.out.println("Situação: Reprovado por nota");
-                  qntdReprovados++;
-                }
-              } else {
+              } else if (notasVetor[i] < 5 && frequenciasVetor[i] >= 15) {
+                System.out.println("Situação: Reprovado por nota");
+
+              } else if (frequenciasVetor[i] < 15) {
                 System.out.println("Situação: Reprovado por frequência");
-                qntdReprovados++;
+
               }
             }
           }
+
+          System.out.println("=======================================");
+
           break;
 
         default:
@@ -393,7 +360,7 @@ public class Uni6Exe10Desafio {
 
       }
 
-    } while (opcao == 5);
+    } while (opcao != 5);
     System.out.println("Fim do programa.");
 
     scanner.close();
