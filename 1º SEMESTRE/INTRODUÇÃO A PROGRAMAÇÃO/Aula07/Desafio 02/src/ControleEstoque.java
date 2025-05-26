@@ -15,8 +15,11 @@ public class ControleEstoque {
     }
 
     /* • cadastrarProduto(Produto produto) - adiciona um produto ao estoque */
-    public int CadastrarProduto(int vetorProdutos) {
-        return 0;
+    public int CadastrarProduto(int quantidadeProdutos, int vetorProdutos) {
+        if (quantidadeProdutos < vetorProdutos.length) {
+            return 0;
+        }
+
     }
 
     /*

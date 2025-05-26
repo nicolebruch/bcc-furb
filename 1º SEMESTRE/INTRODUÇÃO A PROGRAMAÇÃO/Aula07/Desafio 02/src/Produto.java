@@ -33,28 +33,52 @@ public produto(int codigoProduto, String nomeProduto, int quantidadeEstoque, dou
  
 } /* • adicionarEstoque(int quantidade) - adiciona produtos ao estoque */
 
+    public int codigoProduto() {
+        return codigoProduto;
+    }
+
+    public String nomeProduto() {
+        return nomeProduto;
+    }
+
+    public String categoriaProduto() {
+        return categoriaProduto;
+    }
+
     public int adicionarEstoque(int quantidadeEstoque) {
-        return 0;
-
-    } /* • adicionarEstoque(int quantidade) - adiciona produtos ao estoque */
-
-    public int removerEstoque(int quantidadeEstoque) {
-        return false;
+        this.quantidadeEstoque = this.quantidadeEstoque + quantidadeEstoque;
+        return this.quantidadeEstoque;
 
     } /*
-       * • calcularValorTotal() - retorna o valor total do produto em estoque
-       * (quantidade × preço)
+       * •removerEstoque(int quantidade) - remove produtos do estoque (retorna boolean
+       * indicando sucesso)
        */
 
+    public boolean removerEstoque(int quantidadeEstoque) {
+        if (this.quantidadeEstoque >= quantidadeEstoque) {
+            this.quantidadeEstoque = this.quantidadeEstoque - quantidadeEstoque;
+            return true;
+        }
+        return false;
+    }
+
+    /*
+     * • calcularValorTotal() - retorna o valor total do produto em estoque
+     * (quantidade × preço)
+     */
+
     public double calcularValorTotal(int quantidadeEstoque, double precoUnitario) {
-        return 0;
+        double valorTotal = this.quantidadeEstoque * this.precoUnitario;
+        return valorTotal;
 
     }
 
     /* • toString() - retorna uma representação em String dos dados do produto */
     @Override
     public String toString() {
-        return " ";
+        return "Produto [codigoProduto=" + codigoProduto + ", nomeProduto=" + nomeProduto + ", quantidadeEstoque="
+                + quantidadeEstoque + ", precoUnitario=" + precoUnitario + ", categoriaProduto= " + categoriaProduto
+                + "calcularValorTotal=" + valorTotal + "]";
 
     }
 }
