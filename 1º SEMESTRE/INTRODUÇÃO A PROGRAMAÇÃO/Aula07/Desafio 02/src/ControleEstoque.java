@@ -4,7 +4,7 @@ public class ControleEstoque {
      * • produtos - vetor de objetos Produto (capacidade para 30 produtos)
      * • quantidadeProdutos (int) - controla quantos produtos estão cadastrados
      */
-    int vetorProdutos[] = new int[30];
+    int vetorProdutos[] produtos = new vetorProdutos[30];
     int quantidadeProdutos;
 
     /* Construtor padrão (inicializa o vetor e a quantidade) */
