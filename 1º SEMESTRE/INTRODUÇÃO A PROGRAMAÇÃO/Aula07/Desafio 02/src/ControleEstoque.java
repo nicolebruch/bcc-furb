@@ -1,55 +1,75 @@
 public class ControleEstoque {
+
     /*
      * Atributos sendo:
      * • produtos - vetor de objetos Produto (capacidade para 30 produtos)
      * • quantidadeProdutos (int) - controla quantos produtos estão cadastrados
      */
-    int vetorProdutos[] produtos = new vetorProdutos[30];
+    Produto[] produtos = new Produto[30]; 
     int quantidadeProdutos;
 
-    /* Construtor padrão (inicializa o vetor e a quantidade) */
-    public ControleEstoque(int vetorProdutos, int quantidadeProdutos) {
-        this.vetorProdutos = vetorProdutos;
+    /*
+     * Construtor padrão (inicializa o vetor e a quantidade)
+     */
+    public ControleEstoque(Produto[] produtos, int quantidadeProdutos) {
+        this.produtos = produtos;
         this.quantidadeProdutos = quantidadeProdutos;
-
-    }
-
-    /* • cadastrarProduto(Produto produto) - adiciona um produto ao estoque */
-    public int CadastrarProduto(int quantidadeProdutos, int vetorProdutos) {
-        if (quantidadeProdutos < vetorProdutos.length) {
-            return 0;
-        }
-
     }
 
     /*
-     * • buscarProduto(int codigo) - retorna o produto com o código informado (ou
-     * null se não encontrar)
+     * • cadastrarProduto(Produto produto) - adiciona um produto ao estoque
      */
-    public int buscarProduto(int codigoProduto) {
-        return null;
-
+    public boolean cadastrarProduto(Produto produto) {
+        if (quantidadeProdutos < produtos.length) {
+            produtos[quantidadeProdutos] = produto;
+            quantidadeProdutos++;
+            return true;
+        }
+        return false; // estoque cheio
     }
 
-    /* listarTodosProdutos() - exibe todos os produtos cadastrados */
+    /*
+     * • buscarProduto(int codigo) - retorna o produto com o código informado
+     * (ou null se não encontrar)
+     */
+    public Produto buscarProduto(int codigo) {
+        for (int i = 0; i < quantidadeProdutos; i++) {
+            if (produtos[i].getCodigoProduto() == codigo) {
+                return produtos[i];
+            }
+        }
+        return null; // não encontrado
+    }
 
-    public void listarTodosProdutos(int vetorProdutos) {
-        System.out.println(" ");
+    /*
+     * • listarTodosProdutos() - exibe todos os produtos cadastrados
+     */
+    public void listarTodosProdutos() {
+        for (int i = 0; i < quantidadeProdutos; i++) {
+            System.out.println(produtos[i]);
+        }
     }
 
     /*
      * • listarProdutosPorCategoria(String categoria) - lista produtos de uma
      * categoria específica
      */
-
-    public void listarProdutosPorCategoria(String categoriaProduto) {
-        System.out.println(" ");
+    public void listarProdutosPorCategoria(String categoria) {
+        for (int i = 0; i < quantidadeProdutos; i++) {
+            if (produtos[i].getCategoriaProduto().equalsIgnoreCase(categoria)) {
+                System.out.println(produtos[i]);
+            }
+        }
     }
 
     /*
-     * • calcularValorTotalEstoque() - calcula o valor total de todos os produtos em
-     * estoque
+     * • calcularValorTotalEstoque() - calcula o valor total de todos os produtos em estoque
      */
     public double calcularValorTotalEstoque() {
-return 0.0;
+        double total = 0.0;
+        for (int i = 0; i < quantidadeProdutos; i++) {
+            total += produtos[i].calcularValorTotal();
+        }
+        return total;
     }
+}
