@@ -1,0 +1,17 @@
+a. O que está acontecendo no método acima?
+R: Ele está ordenando o vetor.
+
+b. (0,5) Quantas vezes o laço “for” com índice “j” irá executar? Justifique:
+R: Quantas vezes for necessário percorrer os elementos para ordenar na ordem correta.
+
+c. (0,5) Qual o conteúdo interno (valor) da variável “vetor” após a chamada do método teste?
+Justifique:
+R: Vai armazenar a posição zero na variável para poder analisar se é necessário a troca para a posição 1.
+
+d. (0,5) Qual o conteúdo valor da variável “numero” ao fim da execução do código: Justifique:
+R: O conteúdo vai ser o vetor origem ordenado.
+
+
+
+
+                                
