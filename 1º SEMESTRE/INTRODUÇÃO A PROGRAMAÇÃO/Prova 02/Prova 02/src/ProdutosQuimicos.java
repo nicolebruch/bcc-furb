@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /*eu sou técnico de laboratório e preciso criar um sistema
  * de armazenar produtos químicos
  */
@@ -16,18 +15,26 @@ import java.util.Scanner;
 
 /*precisa ter opcao para sair do programa */
 
+import java.util.Scanner;
+
 public class ProdutosQuimicos {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Informe a capacidade MÁXIMA (em volume) do armário: ");
+        /* solicita ao usuário o volume máximo que o armário suporta */
+        System.out.print("Informe a capacidade máxima em volume do armário: ");
         int capacidadeMaxima = scanner.nextInt();
 
-        System.out.print("Informe a quantidade MÁXIMA de produtos que o armário pode armazenar: ");
+        /*
+         * solicita ao usuário a quantidade máxima de produtos que podem ser armazenados
+         */
+        System.out.print("Informe a quantidade máxima de produtos que o armário pode armazenar: ");
         int maxProdutos = scanner.nextInt();
         scanner.nextLine();
 
+        /* arrays para armazenar nome e volume dos produtos */
         String[] nomes = new String[maxProdutos];
         int[] volumes = new int[maxProdutos];
 
@@ -61,26 +68,31 @@ public class ProdutosQuimicos {
                  * precisa informar na tela "Armário está cheio"
                  */
                 case 1:
-                    /*
-                     * informa a quantidade de produtos mas se for maior doq comporta nao pode add
-                     */
                     if (quantidade >= maxProdutos) {
+                        /* verifica se a quantidade máxima de produtos já foi atingida */
                         System.out.println("O armário atingiu o número máximo de produtos.");
                     } else {
                         System.out.print("Informe o nome do Produto Químico: ");
-                        String nome = scanner.nextLine();
+                        String nome = scanner.next();
+
+                        scanner.nextLine();
 
                         System.out.print("Informe o volume do produto: ");
                         int volume = scanner.nextInt();
+                        scanner.nextLine();
 
+                        /*
+                         * verifica se somando o volume atual com o novo ultrapassa o máximo permitido
+                         */
                         if (volumeAtual + volume > capacidadeMaxima) {
-                            System.out.println("Não é possível adicionar. O volume excede a capacidade do armário.");
+                            System.out.println("Não é possível adicionar, volume excede a capacidade do armário.");
                         } else {
                             nomes[quantidade] = nome;
                             volumes[quantidade] = volume;
                             quantidade++;
-                            volumeAtual += volume;
+                            volumeAtual = volumeAtual + volume;
                             System.out.println("Produto adicionado com sucesso!");
+                            System.out.println("==============================================");
                         }
                     }
                     break;
@@ -96,10 +108,13 @@ public class ProdutosQuimicos {
                     if (quantidade == 0) {
                         System.out.println("Nenhum produto armazenado.");
                     } else {
-                        System.out.println("Produtos armazenados (na ordem inversa):");
+                        /* percorre os produtos de trás pra frente e exibe nome e volume */
+                        System.out.println("==============================================");
+                        System.out.println("Produtos armazenados na ordem inversa:");
                         for (int i = quantidade - 1; i >= 0; i--) {
                             System.out.println("Nome: " + nomes[i]);
                             System.out.println("Volume: " + volumes[i]);
+                            System.out.println("==============================================");
                         }
                     }
                     break;
@@ -113,42 +128,59 @@ public class ProdutosQuimicos {
                     if (quantidade == 0) {
                         System.out.println("Nenhum produto armazenado.");
                     } else {
-                        /* variavel temporária para armazenar o maior indice */
+                        /* procura o índice do produto com maior volume */
                         int maiorIndice = 0;
                         for (int i = 1; i < quantidade; i++) {
                             if (volumes[i] > volumes[maiorIndice]) {
                                 maiorIndice = i;
                             }
                         }
+                        System.out.println("==============================================");
                         System.out.println("Produto mais volumoso:");
                         System.out.println("Nome: " + nomes[maiorIndice]);
                         System.out.println("Volume: " + volumes[maiorIndice]);
+                        System.out.println("==============================================");
                     }
                     break;
 
                 /*
-                 * devo ordenar os produtos na segguinte regra:
+                 * devo ordenar os produtos na seguinte regra:
                  * ordenado com base no volume dos produtos
                  * do produto com maior volume para o menor >
                  * BUBBLE SORT
                  */
+
+                 /*me embabaquei muito */
                 case 4:
+                    /* bubble sort ordenando do maior para o menor volume */
                     for (int i = 0; i < quantidade - 1; i++) {
                         for (int j = 0; j < quantidade - 1 - i; j++) {
                             if (volumes[j] < volumes[j + 1]) {
-                                /* faco bubble sort pra volume */
+                                /* troca volumes de lugar */
                                 int tempVol = volumes[j];
                                 volumes[j] = volumes[j + 1];
                                 volumes[j + 1] = tempVol;
 
-                                /* faço bubble sort pra nome */
+                                /* troca os nomes também */
                                 String tempNome = nomes[j];
                                 nomes[j] = nomes[j + 1];
                                 nomes[j + 1] = tempNome;
+
+                                System.out.println("Produtos ordenados por volume de maior para menor");
+                                System.out.println("Nome: " + nomes[j]);
+                                System.out.println("Volume: " + volumes[i]);
+                                System.out.println("==============================================");
                             }
                         }
                     }
-                    System.out.println("Produtos ordenados por volume (maior para menor).");
+
+                    /*
+                     * o bubble sort compara dois elementos
+                     * e troca de lugar se tiverem na ordem errada, ai vai
+                     * repetindo esse processo muitas vezes até quando tudo ficar ordenado
+                     * aqui ele ordena do maior para o menor volume
+                     */
+
                     break;
 
                 /*
@@ -163,10 +195,12 @@ public class ProdutosQuimicos {
                     if (quantidade == 0) {
                         System.out.println("Nenhum produto armazenado.");
                     } else {
+                        System.out.println("==============================================");
                         System.out.print("Informe o nome do produto a ser removido: ");
-                        String nomeExcluir = scanner.nextLine();
+                        String nomeExcluir = scanner.next();
                         int indice = -1;
 
+                        /* procura o índice do produto a ser excluído */
                         for (int i = 0; i < quantidade; i++) {
                             if (nomes[i].equalsIgnoreCase(nomeExcluir)) {
                                 indice = i;
@@ -177,19 +211,26 @@ public class ProdutosQuimicos {
                         if (indice == -1) {
                             System.out.println("Produto não encontrado.");
                         } else {
-                            volumeAtual -= volumes[indice];
-                            /* aqui eu removo o produto */
+                            /* diminui o volume atual */
+                            volumeAtual = volumeAtual - volumes[indice];
+
+                            /* desloca os elementos para preencher o espaço q nao tem nada */
                             for (int i = indice; i < quantidade - 1; i++) {
                                 nomes[i] = nomes[i + 1];
                                 volumes[i] = volumes[i + 1];
                             }
+
+                            /* reduz a quantidade total de produtos */
                             quantidade--;
+                            scanner.nextLine();
                             System.out.println("Produto removido com sucesso.");
+                            System.out.println("==============================================");
                         }
                     }
                     break;
 
                 case 6:
+                    /* opção para encerrar o programa */
                     System.out.println("Fim do Programa");
                     break;
 
@@ -198,6 +239,7 @@ public class ProdutosQuimicos {
                     break;
             }
 
+            /* se a opção escolhida for diferente de 6, le para */
         } while (opcao != 6);
 
         scanner.close();
