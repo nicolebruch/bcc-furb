@@ -67,6 +67,9 @@ public class ProdutosQuimicos {
                  * mais vaga)
                  * precisa informar na tela "Armário está cheio"
                  */
+                // se a quantidade de produtos for maior do que a quantidade que cabe no
+                // armario,
+                // então não pode adicionar mais produtos
                 case 1:
                     if (quantidade >= maxProdutos) {
                         /* verifica se a quantidade máxima de produtos já foi atingida */
@@ -75,21 +78,45 @@ public class ProdutosQuimicos {
                         System.out.print("Informe o nome do Produto Químico: ");
                         String nome = scanner.next();
 
+                        // usado pra nao atrapalhar quando eu dou o enter na resposta
+                        // e ele nao lê o próximo input
                         scanner.nextLine();
 
                         System.out.print("Informe o volume do produto: ");
                         int volume = scanner.nextInt();
+
+                        // limpo o enter pra evitar problema na proxima leitura
+                        // afim de que ele leia o que eu for colocar e nao ficar bugado
                         scanner.nextLine();
 
                         /*
                          * verifica se somando o volume atual com o novo ultrapassa o máximo permitido
                          */
+                        // se for maior do que a capacidade maxima do armario, entao nao pode adicionar
                         if (volumeAtual + volume > capacidadeMaxima) {
                             System.out.println("Não é possível adicionar, volume excede a capacidade do armário.");
                         } else {
+                            /* adiciona o produto ao armário se ele nao passa do limite */
+                            // guardo o nome do produto na posicao que está a quantidade de produtos ja
+                            // guardados
+
+                            /*
+                             * exemplo: se a quantidade foi 2, significa q eu ja tenho 2 produtos guardados
+                             * na posicao 2 da lista, entao a gente so poe o nome na sua posicao
+                             */
                             nomes[quantidade] = nome;
+                            // guardo o volume do produto que estou recem adicionando na mesma posicao do
+                            // nome
+                            // guardo a informacao do volume ao lado do nome do devido produto
                             volumes[quantidade] = volume;
+                            // aumenta a quantidade de produtos guardados
+                            /*
+                             * exemplo: se eu tinha 2 produtos guardados no armario,
+                             * agora eu tenho 3
+                             */
+
                             quantidade++;
+                            // atualiza o volume atual do armário
                             volumeAtual = volumeAtual + volume;
                             System.out.println("Produto adicionado com sucesso!");
                             System.out.println("==============================================");
@@ -150,7 +177,7 @@ public class ProdutosQuimicos {
                  * BUBBLE SORT
                  */
 
-                 /*me embabaquei muito */
+                /* me embabaquei muito */
                 case 4:
                     /* bubble sort ordenando do maior para o menor volume */
                     for (int i = 0; i < quantidade - 1; i++) {
