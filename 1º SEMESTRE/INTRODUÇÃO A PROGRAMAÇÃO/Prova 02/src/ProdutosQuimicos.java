@@ -175,22 +175,24 @@ public class ProdutosQuimicos {
                          * procura o índice do produto com maior volume
                          * e armazena na variavel temp q criei
                          */
-                        /*declaro ela presumindo que o produto 
+                        /*
+                         * declaro ela presumindo que o produto
                          * mais valisoso ta na posicao 0.
                          */
                         int maiorIndice = 0;
                         /* percorre os produtos para encontrar o maior volume */
                         /*
                          * ele começa percorrendo apartir da posição 1
-                         *porque depois no if ele compara se a posicao 1 
+                         * porque depois no if ele compara se a posicao 1
                          * é maior do que a posicao 0, ou seja, o primeiro produto
                          */
                         for (int i = 1; i < quantidade; i++) {
-                            /*compara se o volume do produto na posicao [i] 
+                            /*
+                             * compara se o volume do produto na posicao [i]
                              * é maior do que o volume do produto na posicao [maiorIndice]
                              */
                             if (volumes[i] > volumes[maiorIndice]) {
-                                /*se for maior, ele é o produto mais volumoso */
+                                /* se for maior, ele é o produto mais volumoso */
                                 maiorIndice = i;
                             }
                         }
@@ -212,21 +214,48 @@ public class ProdutosQuimicos {
                 /* me embabaquei muito */
                 case 4:
                     /* bubble sort ordenando do maior para o menor volume */
+                    /* precisa de 2 for's para o algoritmo de bubble sort */
+                    /*
+                     * esse for verifica quantas vezes vai ser necessario percorrer
+                     * os vetores afim de ordenar de maior p menor volume
+                     */
                     for (int i = 0; i < quantidade - 1; i++) {
+                        // aqui é o for onde percorre as posicoes do vetor e vai ordenar em forma
+                        // decrescente
+                        // ele formata em forma descrescente usando o "- 1 - i", pois o vetor entende as
+                        // posicoes de 1 a 7 e nao entende as posições de 0 a 6
+                        // serve para nao estourar quando ele for percorrer o prox elemento
                         for (int j = 0; j < quantidade - 1 - i; j++) {
+                            // aqui vou comparar se a posicao 0 é menor que a posicao 1
                             if (volumes[j] < volumes[j + 1]) {
                                 /* troca volumes de lugar */
+                                // se for, ele armazena a posicao 0 na variavel auxiliar
                                 int tempVol = volumes[j];
+                                // armazenado a posicao 0 na variavel auxiliar eu agora troco pra posicao 1
                                 volumes[j] = volumes[j + 1];
+                                // e a posicao 1 eu troco pela 0
                                 volumes[j + 1] = tempVol;
 
+                                // ficando dessa forma
+                                /*
+                                 * vetor origem [1, 2, 4]
+                                 * vetor no proceso [2, 1, 4]
+                                 * trocou a ordem do "1" e do "2"
+                                 */
+
                                 /* troca os nomes também */
+                                // aqui vou comparar se a posicao 0 é menor que a posicao 1
+                                // se for, ele armazena a posicao 0 na variavel auxiliar
                                 String tempNome = nomes[j];
+                                // armazenado a posicao 0 na variavel auxiliar eu agora troco pra posicao 1
                                 nomes[j] = nomes[j + 1];
+                                // e a posicao 1 eu troco pela 0
                                 nomes[j + 1] = tempNome;
 
                                 System.out.println("Produtos ordenados por volume de maior para menor");
+                                // mostra os produtos ordenados na posicao descrescente
                                 System.out.println("Nome: " + nomes[j]);
+                                // eu deveria ter colocado "j" aqui e não o "i", pois quero printar ele ordenado
                                 System.out.println("Volume: " + volumes[i]);
                                 System.out.println("==============================================");
                             }
@@ -251,7 +280,9 @@ public class ProdutosQuimicos {
                  * informa que o produto nao existe
                  */
                 case 5:
+                 /* verifica se há produtos armazenados */
                     if (quantidade == 0) {
+                        /* avisa que nao tem nenhum produto add ainda se for imprimir */
                         System.out.println("Nenhum produto armazenado.");
                     } else {
                         System.out.println("==============================================");
