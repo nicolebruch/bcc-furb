@@ -334,6 +334,7 @@ public class ProdutosQuimicos {
                              * para evitar deixar um "buraco" na lista apos remover o produto,
                              * move para tras todos os produtos que estavam depois do produto removido
                              */
+                            /*entao comeca do produto removido, sendo int i = indice */
                             for (int i = indice; i < quantidade - 1; i++) {
                                 /* copia o nome do produto da posicao i+1 para a posicao i */
                                 nomes[i] = nomes[i + 1];
