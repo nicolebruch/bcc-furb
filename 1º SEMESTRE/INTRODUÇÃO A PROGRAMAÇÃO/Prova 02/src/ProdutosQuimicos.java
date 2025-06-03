@@ -280,44 +280,62 @@ public class ProdutosQuimicos {
                  * informa que o produto nao existe
                  */
                 case 5:
-                 /* verifica se há produtos armazenados */
-                    if (quantidade == 0) {
-                        /* avisa que nao tem nenhum produto add ainda se for imprimir */
-                        System.out.println("Nenhum produto armazenado.");
-                    } else {
-                        System.out.println("==============================================");
-                        System.out.print("Informe o nome do produto a ser removido: ");
-                        String nomeExcluir = scanner.next();
-                        int indice = -1;
-
-                        /* procura o índice do produto a ser excluído */
-                        for (int i = 0; i < quantidade; i++) {
-                            if (nomes[i].equalsIgnoreCase(nomeExcluir)) {
-                                indice = i;
-                                break;
-                            }
-                        }
-
-                        if (indice == -1) {
-                            System.out.println("Produto não encontrado.");
-                        } else {
-                            /* diminui o volume atual */
-                            volumeAtual = volumeAtual - volumes[indice];
-
-                            /* desloca os elementos para preencher o espaço q nao tem nada */
-                            for (int i = indice; i < quantidade - 1; i++) {
-                                nomes[i] = nomes[i + 1];
-                                volumes[i] = volumes[i + 1];
-                            }
-
-                            /* reduz a quantidade total de produtos */
-                            quantidade--;
-                            scanner.nextLine();
-                            System.out.println("Produto removido com sucesso.");
-                            System.out.println("==============================================");
+                /* verifica se tem produtos armazenados */
+                if (quantidade == 0) {
+                    /* avisa que nao tem nenhum produto armazenado ainda */
+                    System.out.println("nenhum produto armazenado.");
+                } else {
+                    System.out.println("==============================================");
+                    System.out.print("informe o nome do produto a ser removido: ");
+                    
+                    /* le o nome do produto que o usuario quer remover */
+                    String nomeExcluir = scanner.next();
+                    
+                    /* cria a variavel indice com valor -1, que significa que ainda nao achou o produto */
+                    int indice = -1;
+            
+                    /* percorre a lista de produtos, para procurar o nome que o usuario digitou */
+                    for (int i = 0; i < quantidade; i++) {
+                        /* compara o nome do produto na posicao i com o nome digitado pelo usuario,
+                           ignorando se esta maiusculo ou minusculo */
+                        if (nomes[i].equalsIgnoreCase(nomeExcluir)) {
+                            /* se achar o produto, guarda a posicao dele na variavel indice */
+                            indice = i;
+                            /* para de procurar, porque ja achou o produto */
+                            break;
                         }
                     }
-                    break;
+            
+                    /* verifica se o produto nao foi encontrado (indice continua -1) */
+                    if (indice == -1) {
+                        /* avisa que o produto nao existe na lista */
+                        System.out.println("produto nao encontrado.");
+                    } else {
+                        /* subtrai o volume do produto removido do volume total armazenado */
+                        volumeAtual = volumeAtual - volumes[indice];
+            
+                        /* para evitar deixar um "buraco" na lista apos remover o produto,
+                           move para tras todos os produtos que estavam depois do produto removido */
+                        for (int i = indice; i < quantidade - 1; i++) {
+                            /* copia o nome do produto da posicao i+1 para a posicao i */
+                            nomes[i] = nomes[i + 1];
+                            /* copia o volume do produto da posicao i+1 para a posicao i */
+                            volumes[i] = volumes[i + 1];
+                        }
+            
+                        /* diminui a quantidade total de produtos armazenados, pois um foi removido */
+                        quantidade--;
+                        
+                        /* limpa o buffer do teclado para evitar problemas de leitura no futuro */
+                        scanner.nextLine();
+                        
+                        /* avisa que o produto foi removido com sucesso */
+                        System.out.println("produto removido com sucesso.");
+                        System.out.println("==============================================");
+                    }
+                }
+                break;
+            
 
                 case 6:
                     /* opção para encerrar o programa */
