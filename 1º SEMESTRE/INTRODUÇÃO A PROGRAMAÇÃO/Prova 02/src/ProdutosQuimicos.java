@@ -114,7 +114,6 @@ public class ProdutosQuimicos {
                              * exemplo: se eu tinha 2 produtos guardados no armario,
                              * agora eu tenho 3
                              */
-
                             quantidade++;
                             // atualiza o volume atual do armário
                             volumeAtual = volumeAtual + volume;
@@ -132,13 +131,28 @@ public class ProdutosQuimicos {
                  * BUBBLE SORT
                  */
                 case 2:
+                    /* verifica se há produtos armazenados */
                     if (quantidade == 0) {
+                        /* avisa que nao tem nenhum produto add ainda se for imprimir */
                         System.out.println("Nenhum produto armazenado.");
                     } else {
                         /* percorre os produtos de trás pra frente e exibe nome e volume */
                         System.out.println("==============================================");
                         System.out.println("Produtos armazenados na ordem inversa:");
+                        /*
+                         * aqui ele percorre de tras p frente, entao o indice que ele vai
+                         * comecar percorrendo, nao vai ser int = 0, e sim int i = quantidade -1.
+                         */
+                        /*
+                         * int i = quantidade - 1 é o último índice do produto guardado,
+                         * exemplo: se eu tenho 5 produtos guardados, o último índice é 4
+                         */
+                        /*
+                         * como ele nao vai indo pra frente e sim diminuindo a cada vez que percorre
+                         * a lista, se usa o i-- e não i++.
+                         */
                         for (int i = quantidade - 1; i >= 0; i--) {
+                            // aqui so imprime os valores nas posicoes que eles ficaram.
                             System.out.println("Nome: " + nomes[i]);
                             System.out.println("Volume: " + volumes[i]);
                             System.out.println("==============================================");
@@ -152,13 +166,31 @@ public class ProdutosQuimicos {
                  * no armário e qual o seu volume
                  */
                 case 3:
+                    /* verifica se há produtos armazenados */
                     if (quantidade == 0) {
+                        /* avisa que nao tem nenhum produto add ainda se for imprimir */
                         System.out.println("Nenhum produto armazenado.");
                     } else {
-                        /* procura o índice do produto com maior volume */
+                        /*
+                         * procura o índice do produto com maior volume
+                         * e armazena na variavel temp q criei
+                         */
+                        /*declaro ela presumindo que o produto 
+                         * mais valisoso ta na posicao 0.
+                         */
                         int maiorIndice = 0;
+                        /* percorre os produtos para encontrar o maior volume */
+                        /*
+                         * ele começa percorrendo apartir da posição 1
+                         *porque depois no if ele compara se a posicao 1 
+                         * é maior do que a posicao 0, ou seja, o primeiro produto
+                         */
                         for (int i = 1; i < quantidade; i++) {
+                            /*compara se o volume do produto na posicao [i] 
+                             * é maior do que o volume do produto na posicao [maiorIndice]
+                             */
                             if (volumes[i] > volumes[maiorIndice]) {
+                                /*se for maior, ele é o produto mais volumoso */
                                 maiorIndice = i;
                             }
                         }
