@@ -334,15 +334,20 @@ public class ProdutosQuimicos {
                              * para evitar deixar um "buraco" na lista apos remover o produto,
                              * move para tras todos os produtos que estavam depois do produto removido
                              */
-                            /*entao comeca do produto removido, sendo int i = indice */
+                            /*
+                             * entao comeca do produto removido, sendo int i = indice a percorrer
+                             * o vetor
+                             */
                             for (int i = indice; i < quantidade - 1; i++) {
-                                /* copia o nome do produto da posicao i+1 para a posicao i */
+                                /* copia o nome do produto da posicao i para i+1 */
                                 nomes[i] = nomes[i + 1];
                                 /* copia o volume do produto da posicao i+1 para a posicao i */
                                 volumes[i] = volumes[i + 1];
                             }
 
-                            /* diminui a quantidade total de produtos armazenados, pois um foi removido */
+                            /* diminui a quantidade total de produtos armazenados, pois um foi removido,
+                             * entao temos 1 produto a menos, diminuindo por exemplo: de 4 para 3.
+                             */
                             quantidade--;
 
                             /* limpa o buffer do teclado para evitar problemas de leitura no futuro */
