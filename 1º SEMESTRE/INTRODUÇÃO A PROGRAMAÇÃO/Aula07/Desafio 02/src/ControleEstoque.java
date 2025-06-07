@@ -11,9 +11,9 @@ public class ControleEstoque {
     /*
      * Construtor padrão (inicializa o vetor e a quantidade)
      */
-    public ControleEstoque(Produto[] produtos, int quantidadeProdutos) {
-        this.produtos = produtos;
-        this.quantidadeProdutos = quantidadeProdutos;
+    public ControleEstoque() {
+        produtos = new Produto[30];
+        quantidadeProdutos = 0;
     }
 
     /*
