@@ -122,84 +122,118 @@ public class CacaAoTesouro {
             }
         }
 
-        // começa o jogo: roda enquanto o jogador nao tiver feito 25 escavadas ou nao
-        // tiver achado os 8 tesouros
+        // loop "principal" do jogo, ele vai rodar enquanto:
+        /*
+         * o jogador ainda não tiver feito 25 escavadas
+         * E ainda não tiver achado todos os 8 tesouros
+         */
+        // se um desses dois acontecer, o jogo acaba
+
         while (tentativas < 25 && tesourosAchados < 8) {
 
-            // mostra o texto no terminal
+            /*
+             * mostra o texto “Mapa:” na tela pra indicar que vai exibir
+             * o mapa visível pro jogador
+             */
             System.out.println("\nMapa:");
 
-            // mostra o mapa que o jogador pode ver
+            // chama a função do mapa invisível que imprime o mapa que o jogador pode ver
+            /*
+             * ele vai mostrar o que já foi escavado: areia escavada, tesouro achado,
+             * armadilha, etc.
+             */
             mostrarMapa(visivel);
 
-            // mostra a tentativa atual
+            // mostra o número da tentativa atual, de 1 até 25
+            /*
+             * como tentativas começa do zero, precisa colocar +1
+             * pra mostrar certinho pro jogador
+             */
             System.out.println("Tentativa " + (tentativas + 1) + "/25");
 
-            // mostra a pontuação do jogador
+            // mostra quantos pontos o jogador tem naquele momento
             System.out.println("Pontuação atual: " + pontuacao);
 
-            // pede pro jogador a linha
+            // pede pro jogador digitar o número da linha que ele quer escavar
             System.out.print("Digite linha (0 a 7): ");
 
-            // lê a linha digitada
+            // lê o número digitado e guarda na variável linha
             int linha = scanner.nextInt();
-
-            // pede a coluna
+            // pede agora o número da coluna
             System.out.print("Digite coluna (0 a 7): ");
-
-            // lê a coluna
+            // lê o número digitado e guarda na variável coluna
             int coluna = scanner.nextInt();
 
-            // verifica se o jogador digitou fora do mapa
+            // aqui verifica se o jogador digitou algo fora do mapa
+            // se for menor que 0 ou maior que 7, é inválido
             if (linha < 0 || linha > 7 || coluna < 0 || coluna > 7) {
 
-                // avisa que digitou errado
+                /*
+                 * se for inválido, avisa o jogador e pula pro próximo loop
+                 * (não conta como tentativa)
+                 */
                 System.out.println("Coordenadas inválidas!");
                 continue;
             }
 
-            // verifica se ele já cavou nesse lugar
+            // aqui verifica se o jogador já escavou esse lugar antes
+            // se já tiver qualquer coisa diferente de '~', é porque ele já cavou ali
             if (visivel[linha][coluna] != '~') {
 
-                // avisa que já escavou
+                /*
+                 * se já cavou, avisa o jogador e volta pro começo do loop
+                 * (também não conta como tentativa)
+                 */
                 System.out.println("Você já escavou essa posição!");
                 continue;
             }
 
-            // aumenta o número de tentativas
+            /*
+             * se chegou aqui, a escavada é válida, então aumenta o número de
+             * tentativas em 1
+             */
             tentativas++;
 
-            // se achou tesouro
+            // se o jogador cavou e achou um tesouro
             if (mapa[linha][coluna] == 't') {
 
-                // marca o tesouro como achado no mapa visível
+                /*
+                 * mostra no mapa visível que ali tem um tesouro com T maiúsculo
+                 * (pra destacar)
+                 */
                 visivel[linha][coluna] = 'T';
 
-                // ganha 10 pontos
-                pontuacao += 10;
+                // ganha 10 pontos por encontrar um tesouro
+                pontuacao = pontuacao + 10;
 
-                // aumenta a contagem de tesouros achados
+                // aumenta o número de tesouros achados
                 tesourosAchados++;
 
                 System.out.println("Tesouro encontrado! +10 pontos!");
             }
 
-            // se achou armadilha
+            // se não tinha tesouro, mas tinha uma armadilha ali
+            // o símbolo 'a' quer dizer armadilha
             else if (mapa[linha][coluna] == 'a') {
 
-                // marca a armadilha
+                /*
+                 * marca com A maiúsculo no mapa visível pra mostrar que o jogador
+                 * caiu numa armadilha
+                 */
                 visivel[linha][coluna] = 'A';
 
-                // perde 5 pontos
-                pontuacao -= 5;
+                // perde 5 pontos por ter caído na armadilha
+                pontuacao = pontuacao - 5;
 
                 System.out.println("Armadilha! -5 pontos!");
             }
 
-            // se cavou e só tinha areia
+            // se não tinha nem tesouro nem armadilha, ou seja, só areia
             else {
-
-                // marca que cavou mas não tinha nada
+                /*
+                 * marca com 'O' no mapa visível,
+                 * indicando que escavou mas não tinha nada ali
+                 */
                 visivel[linha][coluna] = 'O';
 
                 System.out.println("Só areia...");
@@ -212,32 +246,44 @@ public class CacaAoTesouro {
         // mostra a pontuação final
         System.out.println("Pontuação final: " + pontuacao);
 
+        // aqui verifica se o jogador achou os 8 tesouros
         // se achou os 8 tesouros, ganhou
         if (tesourosAchados == 8) {
             System.out.println("Você venceu! Todos os tesouros foram encontrados.");
         }
 
-        // se não, perdeu
+        // se não, mostra que perdeu (acabaram as tentativas)
         else {
             System.out.println("Você perdeu. Fim das escavações.");
         }
 
-        // agora revela o mapa inteiro pro jogador
+        /*
+         * mostra o texto dizendo que agora o mapa real vai ser mostrado
+         * (com todos os tesouros e armadilhas)
+         */
         System.out.println("\nMapa revelado:");
 
+        // esse for percorre todas as posições do mapa (linha por linha)
         for (int i = 0; i < 8; i++)
+            // esse for percorre todas as posições do mapa (coluna por coluna)
             for (int j = 0; j < 8; j++) {
 
-                // se tinha um tesouro escondido e o jogador não cavou ali, mostra agora
+                /*
+                 * se naquela posição tinha um tesouro escondido
+                 * e o jogador não cavou ali, mostra o 't' agora
+                 */
                 if (mapa[i][j] == 't' && visivel[i][j] == '~')
                     visivel[i][j] = 't';
 
-                // se tinha armadilha escondida, também revela
+                /*
+                 * mesma ideia: se tinha armadilha escondida e
+                 * o jogador não descobriu, mostra agora
+                 */
                 if (mapa[i][j] == 'a' && visivel[i][j] == '~')
                     visivel[i][j] = 'a';
             }
 
-        // mostra o mapa completo revelado
+        // chama a função de novo pra mostrar o mapa completo revelado
         mostrarMapa(visivel);
 
         // mostra a classificação do jogador dependendo da pontuação
