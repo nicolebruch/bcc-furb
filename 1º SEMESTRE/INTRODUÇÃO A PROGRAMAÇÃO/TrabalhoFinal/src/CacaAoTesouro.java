@@ -41,8 +41,8 @@ public class CacaAoTesouro {
         // o primeiro for anda nas linhas (de 0 a 7)
         // o segundo for anda nas colunas dentro de cada linha (de 0 a 7)
         // mapa[i][j] quer dizer: “na linha i e coluna j do mapa”
-        // essa parte é tipo preparar o tabuleiro vazio antes de colocar tesouros e
-        // armadilhas
+        /*essa parte eu to preparando o mapa da caça ao tesouro 
+        vazio antes de colocar tesouros e armadilhas*/
 
         // esse for percorre as 8 linhas do mapa
         for (int i = 0; i < 8; i++) {
