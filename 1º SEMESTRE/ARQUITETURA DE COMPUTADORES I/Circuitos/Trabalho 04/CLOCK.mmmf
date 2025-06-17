@@ -1,0 +1,71 @@
+MOV 00, B;  // unidade de segundos
+	MOV 00, C;  // dezena de segundos
+	MOV 07, D;  // unidade de minutos
+	MOV 05, E; //dezena de minutos
+
+MOSTRAREGISTRADORESDAHORA:
+	// mostra as saídas que seriam os segundos e minutos
+	MOV B, A;
+	//unidade de segundos
+	MOV A, OUT3;
+	//dezena dos segundos
+	MOV C, A;
+	MOV A, OUT2;
+	//unidade dos minutos
+	MOV D, A;
+	MOV A, OUT1;
+	//dezena de minutos
+	MOV E, A;
+	MOV A, OUT0;
+
+	// aqui sao as unidades dos segundos
+	MOV B, A;
+	//add +1 no B pra sempre ir contando 1 +1 +1
+	ADD 01, B;  
+	//coloco o valor de B em A
+	MOV B, A;
+	//sempre quando chegar a unidade dos segundos em 10, ele zera
+	SUB 0A, A;  
+	JMPZ ZERAUNIDSS;
+	JMP MOSTRAREGISTRADORESDAHORA;
+
+ZERAUNIDSS:
+	//zera a unidade de segundos
+	MOV 00, B;  
+
+	// aqui sao as dezenas dos segundos
+	MOV C, A;
+	ADD 01, C;  
+	MOV C, A;
+	SUB 06, A;  
+	JMPZ ZERADEZSS;
+	JMP MOSTRAREGISTRADORESDAHORA;
+
+ZERADEZSS:
+	//zera a dezena de segundos
+	MOV 00, C;  
+
+	// aqui add unidade dos minutos
+	MOV D, A;
+	ADD 01, D;  
+	MOV D, A;
+	SUB 0A, A;  
+	JMPZ ZERAUNIDMIN;
+	JMP MOSTRAREGISTRADORESDAHORA;
+
+ZERAUNIDMIN:
+	//zera a unidade de minutos
+	MOV 00, D;  
+
+	// aqui add dezena dos minutos
+	MOV E, A;
+	ADD 01, E;  
+	MOV E, A;
+	SUB 06, A;  
+	JMPZ ZERADEZMIN;
+	JMP MOSTRAREGISTRADORESDAHORA;
+
+ZERADEZMIN:
+	//zero a dezena dos minutos 
+	MOV 00, E;  
+	JMP MOSTRAREGISTRADORESDAHORA;

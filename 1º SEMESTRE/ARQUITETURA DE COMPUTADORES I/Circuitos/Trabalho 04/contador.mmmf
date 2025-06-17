@@ -1,0 +1,10 @@
+MOV 00,A;    
+SALTO:          
+
+MOV A,B;        // B = A (copia o valor de A para B)
+MOV A,C;        // C = A (copia o valor de A para C)
+MOV A,D;        // D = A (copia o valor de A para D)
+MOV A,E;        // E = A (copia o valor de A para E)
+ADD 01,A;
+// Vai para o rótulo SALTO e repete tudo
+JMP SALTO;
