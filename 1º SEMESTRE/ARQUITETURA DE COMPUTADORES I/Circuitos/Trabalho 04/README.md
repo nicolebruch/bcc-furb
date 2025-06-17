@@ -100,6 +100,5 @@ java -jar logisim-generic-2.7.1.jar
 
 ## ⚙️ Observações Importantes
 
-* Este simulador foi desenvolvido para fins educacionais, com foco na aprendizagem de lógica digital, arquitetura de computadores e Assembly.
 * A execução no Linux requer que você tenha o **Java instalado** para rodar tanto o compilador quanto o simulador gráfico.
 
