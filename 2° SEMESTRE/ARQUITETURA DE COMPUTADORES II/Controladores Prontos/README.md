@@ -21,8 +21,7 @@ Para isso, uso o **Proteus 8.4** junto com os controladores já configurados por
 ## 🎯 Como utilizar no Proteus
 1. Abra o **Proteus 8.4**.  
 2. Carregue o projeto desejado do Andrew Nelis.  
-3. Use a janela de comandos do simulador para interagir com o processador e os controladores.  
-4. Altere os parâmetros dos controladores conforme os exemplos prontos.  
+3. Use a janela de comandos do simulador para interagir com o processador e os controladores.
 
 ---
 
